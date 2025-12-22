@@ -1,0 +1,3 @@
+// Restart
+
+game_restart()
