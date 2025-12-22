@@ -5,6 +5,7 @@
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Collidable_Tiles","order":3,"path":"folders/Sprites/Collidable_Tiles.yy",},
+    {"name":"Player","order":4,"path":"folders/Sprites/Player.yy",},
     {"name":"Non_Collidable_Tiles","order":2,"path":"folders/Sprites/Non_Collidable_Tiles.yy",},
   ],
   "ResourceOrderSettings":[
