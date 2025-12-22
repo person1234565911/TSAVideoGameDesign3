@@ -38,7 +38,7 @@
     {"id":{"name":"Nature_props_01","path":"sprites/Nature_props_01/Nature_props_01.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Collidable_Blocks","path":"tilesets/Collidable_Blocks/Collidable_Blocks.yy",},},
-    {"id":{"name":"Nature_TIles","path":"tilesets/Nature_TIles/Nature_TIles.yy",},},
+    {"id":{"name":"Nature_Tiles","path":"tilesets/Nature_Tiles/Nature_Tiles.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

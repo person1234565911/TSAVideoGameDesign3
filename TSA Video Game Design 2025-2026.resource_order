@@ -15,6 +15,6 @@
     {"name":"sfx_jump","order":3,"path":"sounds/sfx_jump/sfx_jump.yy",},
     {"name":"sfx_select","order":6,"path":"sounds/sfx_select/sfx_select.yy",},
     {"name":"Collidable_Blocks","order":1,"path":"tilesets/Collidable_Blocks/Collidable_Blocks.yy",},
-    {"name":"Nature_TIles","order":1,"path":"tilesets/Nature_TIles/Nature_TIles.yy",},
+    {"name":"Nature_Tiles","order":1,"path":"tilesets/Nature_Tiles/Nature_Tiles.yy",},
   ],
 }

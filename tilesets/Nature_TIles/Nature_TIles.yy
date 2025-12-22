@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"Nature_TIles",
+  "%Name":"Nature_Tiles",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"Nature_TIles",
-  "out_columns":30,
+  "name":"Nature_Tiles",
+  "out_columns":29,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -32,7 +32,7 @@
   "tilehsep":0,
   "tilevsep":0,
   "tileWidth":16,
-  "tilexoff":0,
-  "tileyoff":0,
-  "tile_count":925,
+  "tilexoff":14,
+  "tileyoff":29,
+  "tile_count":828,
 }
