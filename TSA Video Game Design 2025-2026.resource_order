@@ -4,10 +4,12 @@
     {"name":"Objects","order":4,"path":"folders/Objects.yy",},
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
-    {"name":"Non_Collidable_Tiles","order":2,"path":"folders/Sprites/Non_Collidable_Tiles.yy",},
     {"name":"Collidable_Tiles","order":3,"path":"folders/Sprites/Collidable_Tiles.yy",},
+    {"name":"Non_Collidable_Tiles","order":2,"path":"folders/Sprites/Non_Collidable_Tiles.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"objGame","order":1,"path":"objects/objGame/objGame.yy",},
+    {"name":"objPlayer","order":2,"path":"objects/objPlayer/objPlayer.yy",},
     {"name":"sfx_bump","order":8,"path":"sounds/sfx_bump/sfx_bump.yy",},
     {"name":"sfx_coin","order":9,"path":"sounds/sfx_coin/sfx_coin.yy",},
     {"name":"sfx_hurt","order":2,"path":"sounds/sfx_hurt/sfx_hurt.yy",},
