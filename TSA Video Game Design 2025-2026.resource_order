@@ -9,8 +9,8 @@
     {"name":"Non_Collidable_Tiles","order":2,"path":"folders/Sprites/Non_Collidable_Tiles.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"objGame","order":1,"path":"objects/objGame/objGame.yy",},
-    {"name":"objPlayer","order":2,"path":"objects/objPlayer/objPlayer.yy",},
+    {"name":"Object1","order":2,"path":"objects/Object1/Object1.yy",},
+    {"name":"objPlayer","order":1,"path":"objects/objPlayer/objPlayer.yy",},
     {"name":"sfx_bump","order":8,"path":"sounds/sfx_bump/sfx_bump.yy",},
     {"name":"sfx_coin","order":9,"path":"sounds/sfx_coin/sfx_coin.yy",},
     {"name":"sfx_hurt","order":2,"path":"sounds/sfx_hurt/sfx_hurt.yy",},
