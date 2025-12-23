@@ -1,15 +1,35 @@
-// Apply gravity for this object
-vertical_speed += grav;
+// Horizontal movement
+if (keyboard_check(vk_right))
+{
+    horizontal_speed = 4;
+}
+else if (keyboard_check(vk_left))
+{
+    horizontal_speed = -4;
+}
+else
+{
+    horizontal_speed = 0;
+}
 
-// left-right movement system
+// Move horizontally if no collision
 if (!place_meeting(x + horizontal_speed, y, Object1))
 {
     x += horizontal_speed;
 }
 
-// Jumping and vertical movement system
-if (place_meeting(x, y + vertical_speed, Object1))
+// Applying gravity
+vertical_speed += 0.9; 
+
+// Vertical movement and collisions
+if (!place_meeting(x, y + vertical_speed, Object1))
 {
+    y += vertical_speed;
+    on_ground = false;
+}
+else
+{
+ 
     while (!place_meeting(x, y + sign(vertical_speed), Object1))
     {
         y += sign(vertical_speed);
@@ -17,14 +37,9 @@ if (place_meeting(x, y + vertical_speed, Object1))
     vertical_speed = 0;
     on_ground = true;
 }
-else
-{
-    y += vertical_speed;
-    on_ground = false;
-}
 
-// checks if any keys are pressed. If not, then stop all movement
-if (!keyboard_check(vk_right) && !keyboard_check(vk_left))
+// resets jump_amount when collision with the ground occurs
+if (on_ground)
 {
-    horizontal_speed = 0;
+    jump_amount = 2;
 }
