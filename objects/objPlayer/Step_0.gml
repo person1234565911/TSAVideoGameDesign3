@@ -47,5 +47,8 @@ if (on_ground)
 // Dying checks
 if (place_meeting(x, y, Death_Collisi))
 {
-		game_restart()
+		audio_sound_gain(sfx_hurt, 0.75, 0);
+		audio_play_sound(sfx_hurt, 1, false);
+		is_dead = true;
+		game_restart();
 }
