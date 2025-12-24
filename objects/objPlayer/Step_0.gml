@@ -43,3 +43,9 @@ if (on_ground)
 {
     jump_amount = 2;
 }
+
+// Dying checks
+if (place_meeting(x, y, Death_Collisi))
+{
+		game_restart()
+}

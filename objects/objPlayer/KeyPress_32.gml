@@ -6,5 +6,5 @@ if (jump_amount > 0)
     if (jump_amount == 1)
         audio_play_sound(sfx_jump, 1, false);
     else
-        audio_play_sound(sfx_jump_high, 1, false);
+		audio_play_sound(sfx_jump_high, 1, false);
 }

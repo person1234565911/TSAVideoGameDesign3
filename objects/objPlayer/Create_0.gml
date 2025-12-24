@@ -14,3 +14,6 @@ on_ground = false;
 //Jumping control variables
 jump_power = -10;
 jump_amount = 2;
+
+// death variables
+dist_to_player = point_distance(x, y, xstart, ystart)

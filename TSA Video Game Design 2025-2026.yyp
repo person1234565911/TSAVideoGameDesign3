@@ -27,6 +27,7 @@
   },
   "name":"TSA Video Game Design 2025-2026",
   "resources":[
+    {"id":{"name":"Death_Collisi","path":"objects/Death_Collisi/Death_Collisi.yy",},},
     {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
     {"id":{"name":"objGame","path":"objects/objGame/objGame.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
@@ -41,6 +42,7 @@
     {"id":{"name":"Nature_props_01","path":"sprites/Nature_props_01/Nature_props_01.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
+    {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
     {"id":{"name":"Collidable_Blocks","path":"tilesets/Collidable_Blocks/Collidable_Blocks.yy",},},
     {"id":{"name":"Nature_Tiles","path":"tilesets/Nature_Tiles/Nature_Tiles.yy",},},
   ],
