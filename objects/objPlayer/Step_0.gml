@@ -52,3 +52,10 @@ if (place_meeting(x, y, Death_Collisi))
 		is_dead = true;
 		game_restart();
 }
+if (place_meeting(x, y, Object2))
+{
+	vertical_speed = -1000;
+	vertical_speed = jump_power;
+	jump_amount = 1;
+	on_ground = false
+}
