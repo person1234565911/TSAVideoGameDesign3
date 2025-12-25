@@ -18,6 +18,7 @@
     {"name":"sfx_jump_high","order":2,"path":"sounds/sfx_jump_high/sfx_jump_high.yy",},
     {"name":"sfx_jump","order":1,"path":"sounds/sfx_jump/sfx_jump.yy",},
     {"name":"sfx_select","order":3,"path":"sounds/sfx_select/sfx_select.yy",},
+    {"name":"death_effect","order":3,"path":"sprites/death_effect/death_effect.yy",},
     {"name":"jump_pad","order":2,"path":"sprites/jump_pad/jump_pad.yy",},
     {"name":"Sprite5","order":1,"path":"sprites/Sprite5/Sprite5.yy",},
     {"name":"Collidable_Blocks","order":1,"path":"tilesets/Collidable_Blocks/Collidable_Blocks.yy",},
