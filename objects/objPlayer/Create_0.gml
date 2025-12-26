@@ -12,7 +12,7 @@ grav = 0.8;
 on_ground = false;
 
 //Jumping control variables
-jump_power = -10;
+jump_power = -8;
 jump_amount = 2;
 
 // death variables

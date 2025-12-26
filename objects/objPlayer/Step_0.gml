@@ -1,60 +1,64 @@
-// Horizontal movement
-if (keyboard_check(vk_right))
+	
+if is_dead == false
 {
-    horizontal_speed = 4;
-}
-else if (keyboard_check(vk_left))
-{
-    horizontal_speed = -4;
-}
-else
-{
-    horizontal_speed = 0;
-}
+	// Dying checks
+	if (place_meeting(x, y, Death_Collisi))
+	{
+			audio_sound_gain(sfx_hurt, 0.75, 0);
+			audio_play_sound(sfx_hurt, 1, false);
+			is_dead = true;
+	}
+	// Horizontal movement
+	if (keyboard_check(vk_right))
+	{
+	    horizontal_speed = 3;
+	}
+	else if (keyboard_check(vk_left))
+	{
+	    horizontal_speed = -3;
+	}
+	else
+	{
+	    horizontal_speed = 0;
+	}
 
-// Move horizontally if no collision
-if (!place_meeting(x + horizontal_speed, y, Object1))
-{
-    x += horizontal_speed;
-}
+	// Move horizontally if no collision
+	if (!place_meeting(x + horizontal_speed, y, Object1))
+	{
+	    x += horizontal_speed;
+	}
 
-// Applying gravity
-vertical_speed += 0.9; 
+	// Applying gravity
+	vertical_speed += 0.8; 
 
-// Vertical movement and collisions
-if (!place_meeting(x, y + vertical_speed, Object1))
-{
-    y += vertical_speed;
-    on_ground = false;
-}
-else
-{
+	// Vertical movement and collisions
+	if (!place_meeting(x, y + vertical_speed, Object1))
+	{
+	    y += vertical_speed;
+	    on_ground = false;
+	}
+	else
+	{
  
-    while (!place_meeting(x, y + sign(vertical_speed), Object1))
-    {
-        y += sign(vertical_speed);
-    }
-    vertical_speed = 0;
-    on_ground = true;
-}
+	    while (!place_meeting(x, y + sign(vertical_speed), Object1))
+	    {
+	        y += sign(vertical_speed);
+	    }
+	    vertical_speed = 0;
+	    on_ground = true;
+	}
 
-// resets jump_amount when collision with the ground occurs
-if (on_ground)
-{
-    jump_amount = 2;
-}
+	// resets jump_amount when collision with the ground occurs
+	if (on_ground)
+	{
+	    jump_amount = 2;
+	}
 
-// Dying checks
-if (place_meeting(x, y, Death_Collisi))
-{
-		audio_sound_gain(sfx_hurt, 0.75, 0);
-		audio_play_sound(sfx_hurt, 1, false);
-		is_dead = true;
-		game_restart();
-}
-if (place_meeting(x, y, Object2))
-{
-	vertical_speed = -15
-	jump_amount = 1;
-	on_ground = false
+	
+	if (place_meeting(x, y, Object2))
+	{
+		vertical_speed = -14;
+		jump_amount = 1;
+		on_ground = false
+	}
 }

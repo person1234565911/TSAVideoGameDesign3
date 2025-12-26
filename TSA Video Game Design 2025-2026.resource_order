@@ -12,6 +12,7 @@
     {"name":"Death_Collisi","order":3,"path":"objects/Death_Collisi/Death_Collisi.yy",},
     {"name":"Object1","order":2,"path":"objects/Object1/Object1.yy",},
     {"name":"Object2","order":4,"path":"objects/Object2/Object2.yy",},
+    {"name":"Object6","order":5,"path":"objects/Object6/Object6.yy",},
     {"name":"objPlayer","order":1,"path":"objects/objPlayer/objPlayer.yy",},
     {"name":"sfx_bump","order":4,"path":"sounds/sfx_bump/sfx_bump.yy",},
     {"name":"sfx_coin","order":5,"path":"sounds/sfx_coin/sfx_coin.yy",},
