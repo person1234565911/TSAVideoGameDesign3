@@ -23,6 +23,7 @@
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"Abaro_Woods_Remix.mp3.mpeg","CopyToMask":-1,"filePath":"datafiles","name":"Abaro_Woods_Remix.mp3.mpeg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"hi.webp","CopyToMask":-1,"filePath":"datafiles","name":"hi.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
