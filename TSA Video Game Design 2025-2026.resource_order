@@ -11,6 +11,8 @@
     {"name":"TileSets","order":6,"path":"folders/TileSets.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"objCollision","order":2,"path":"objects/objCollision/objCollision.yy",},
+    {"name":"objOneWay","order":3,"path":"objects/objOneWay/objOneWay.yy",},
     {"name":"objPlayer","order":1,"path":"objects/objPlayer/objPlayer.yy",},
     {"name":"sfx_bump","order":4,"path":"sounds/sfx_bump/sfx_bump.yy",},
     {"name":"sfx_coin","order":5,"path":"sounds/sfx_coin/sfx_coin.yy",},
@@ -21,6 +23,7 @@
     {"name":"jump_pad","order":2,"path":"sprites/jump_pad/jump_pad.yy",},
     {"name":"sCollision","order":1,"path":"sprites/sCollision/sCollision.yy",},
     {"name":"sDeath","order":2,"path":"sprites/sDeath/sDeath.yy",},
+    {"name":"sOneWay","order":5,"path":"sprites/sOneWay/sOneWay.yy",},
     {"name":"sPlayerJump","order":1,"path":"sprites/sPlayerJump/sPlayerJump.yy",},
     {"name":"sPlayerRun","order":2,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
     {"name":"Sprite11","order":1,"path":"sprites/Sprite11/Sprite11.yy",},

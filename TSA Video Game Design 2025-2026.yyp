@@ -32,7 +32,9 @@
   },
   "name":"TSA Video Game Design 2025-2026",
   "resources":[
+    {"id":{"name":"objCollision","path":"objects/objCollision/objCollision.yy",},},
     {"id":{"name":"objGame","path":"objects/objGame/objGame.yy",},},
+    {"id":{"name":"objOneWay","path":"objects/objOneWay/objOneWay.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sfx_bump","path":"sounds/sfx_bump/sfx_bump.yy",},},
@@ -46,6 +48,7 @@
     {"id":{"name":"sCollision","path":"sprites/sCollision/sCollision.yy",},},
     {"id":{"name":"sDeath","path":"sprites/sDeath/sDeath.yy",},},
     {"id":{"name":"sJumpPad","path":"sprites/sJumpPad/sJumpPad.yy",},},
+    {"id":{"name":"sOneWay","path":"sprites/sOneWay/sOneWay.yy",},},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},},
     {"id":{"name":"sPlayerJump","path":"sprites/sPlayerJump/sPlayerJump.yy",},},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},},
