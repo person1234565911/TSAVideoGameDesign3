@@ -51,7 +51,7 @@
     {"id":{"name":"sOneWay","path":"sprites/sOneWay/sOneWay.yy",},},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},},
     {"id":{"name":"sPlayerJump","path":"sprites/sPlayerJump/sPlayerJump.yy",},},
-    {"id":{"name":"sPLayerLand","path":"sprites/sPLayerLand/sPLayerLand.yy",},},
+    {"id":{"name":"sPlayerLand","path":"sprites/sPlayerLand/sPlayerLand.yy",},},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},},
     {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},},
     {"id":{"name":"sTransitionANIMATION","path":"sprites/sTransitionANIMATION/sTransitionANIMATION.yy",},},

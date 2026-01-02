@@ -10,3 +10,4 @@ player_jumps = 2; //# of jumps
 player_idle = sPlayerIdle;
 player_run = sPlayerRun;
 player_jump = sPlayerJump;
+player_land = sPlayerLand;

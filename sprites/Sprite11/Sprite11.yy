@@ -3,7 +3,7 @@
   "%Name":"Sprite11",
   "bboxMode":0,
   "bbox_bottom":63,
-  "bbox_left":15,
+  "bbox_left":16,
   "bbox_right":159,
   "bbox_top":0,
   "collisionKind":1,

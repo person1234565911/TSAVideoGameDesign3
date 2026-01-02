@@ -31,7 +31,7 @@ if (place_meeting(x, y + player_speed_y, objCollision)) or
 	
 	
 	if (player_jump_check)
-	sprite_index = sPLayerLand;
+	sprite_index = player_land;
 }
 
 
