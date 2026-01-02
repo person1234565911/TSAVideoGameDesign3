@@ -12,6 +12,8 @@
   ],
   "ResourceOrderSettings":[
     {"name":"objCollision","order":2,"path":"objects/objCollision/objCollision.yy",},
+    {"name":"objDeath","order":4,"path":"objects/objDeath/objDeath.yy",},
+    {"name":"objDeathandTRansitionAnimation","order":5,"path":"objects/objDeathandTRansitionAnimation/objDeathandTRansitionAnimation.yy",},
     {"name":"objOneWay","order":3,"path":"objects/objOneWay/objOneWay.yy",},
     {"name":"objPlayer","order":1,"path":"objects/objPlayer/objPlayer.yy",},
     {"name":"sfx_bump","order":4,"path":"sounds/sfx_bump/sfx_bump.yy",},
@@ -21,6 +23,7 @@
     {"name":"sfx_select","order":3,"path":"sounds/sfx_select/sfx_select.yy",},
     {"name":"Sound7","order":6,"path":"sounds/Sound7/Sound7.yy",},
     {"name":"jump_pad","order":2,"path":"sprites/jump_pad/jump_pad.yy",},
+    {"name":"sBg","order":6,"path":"sprites/sBg/sBg.yy",},
     {"name":"sCollision","order":1,"path":"sprites/sCollision/sCollision.yy",},
     {"name":"sDeath","order":2,"path":"sprites/sDeath/sDeath.yy",},
     {"name":"sOneWay","order":5,"path":"sprites/sOneWay/sOneWay.yy",},

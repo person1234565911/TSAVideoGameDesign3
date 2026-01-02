@@ -49,3 +49,10 @@ if (key_space && (place_meeting(x, y + 1, objCollision) or (place_meeting(x, y +
 
 
 }
+
+//Death
+if (place_meeting(x,y,objDeath))
+{
+	player_isDead = true;
+	game_restart();
+}
