@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"TileSet3",
-  "out_columns":21,
+  "out_columns":7,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -17,7 +17,10 @@
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite11",
+    "path":"sprites/Sprite11/Sprite11.yy",
+  },
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",
@@ -31,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":425,
+  "tile_count":44,
 }
