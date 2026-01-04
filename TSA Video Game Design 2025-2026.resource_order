@@ -14,6 +14,8 @@
     {"name":"objCollision","order":2,"path":"objects/objCollision/objCollision.yy",},
     {"name":"objDeath","order":4,"path":"objects/objDeath/objDeath.yy",},
     {"name":"objDeathandTRansitionAnimation","order":5,"path":"objects/objDeathandTRansitionAnimation/objDeathandTRansitionAnimation.yy",},
+    {"name":"Object8","order":7,"path":"objects/Object8/Object8.yy",},
+    {"name":"objJumpPad","order":6,"path":"objects/objJumpPad/objJumpPad.yy",},
     {"name":"objOneWay","order":3,"path":"objects/objOneWay/objOneWay.yy",},
     {"name":"objPlayer","order":1,"path":"objects/objPlayer/objPlayer.yy",},
     {"name":"sfx_bump","order":4,"path":"sounds/sfx_bump/sfx_bump.yy",},

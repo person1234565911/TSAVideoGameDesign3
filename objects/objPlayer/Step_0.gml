@@ -56,3 +56,10 @@ if (place_meeting(x,y,objDeath))
 	player_isDead = true;
 	game_restart();
 }
+
+if (place_meeting(x,y,objJumpPad))
+{
+	jump_pad_activated = true;
+	player_speed_y = player_jump_pad_height;
+	jump_pad_activated = false;
+}
