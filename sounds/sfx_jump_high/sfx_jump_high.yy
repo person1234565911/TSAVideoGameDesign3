@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.42873016,
+  "duration":1.5615873,
   "exportDir":"",
   "name":"sfx_jump_high",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_jump_high.ogg",
+  "soundFile":"sfx_jump_high.mp3",
   "volume":1.0,
 }
