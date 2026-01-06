@@ -29,6 +29,7 @@
     {"name":"sCollision","order":1,"path":"sprites/sCollision/sCollision.yy",},
     {"name":"sDeath","order":2,"path":"sprites/sDeath/sDeath.yy",},
     {"name":"sOneWay","order":5,"path":"sprites/sOneWay/sOneWay.yy",},
+    {"name":"sPlatformMoving","order":7,"path":"sprites/sPlatformMoving/sPlatformMoving.yy",},
     {"name":"sPlayerJump","order":2,"path":"sprites/sPlayerJump/sPlayerJump.yy",},
     {"name":"sPlayerLand","order":3,"path":"sprites/sPlayerLand/sPlayerLand.yy",},
     {"name":"sPlayerRun","order":1,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
