@@ -6,11 +6,17 @@
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
     {"name":"Collidable_Tiles","order":3,"path":"folders/Sprites/Collidable_Tiles.yy",},
     {"name":"Non_Collidable_Tiles","order":2,"path":"folders/Sprites/Non_Collidable_Tiles.yy",},
     {"name":"Player","order":4,"path":"folders/Sprites/Player.yy",},
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     {"name":"Game Sprites","order":12,"path":"folders/Sprites/Game Sprites.yy",},
@@ -18,6 +24,10 @@
     {"name":"Tilesets Sprites","order":11,"path":"folders/Sprites/Tilesets Sprites.yy",},
     {"name":"TileSets","order":6,"path":"folders/TileSets.yy",},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> 6e6e863d091e1d08d44be17472962268bd668b32
+>>>>>>> Stashed changes
 =======
 >>>>>>> 6e6e863d091e1d08d44be17472962268bd668b32
 >>>>>>> Stashed changes
