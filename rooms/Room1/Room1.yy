@@ -8,6 +8,15 @@
   "instanceCreationOrder":[
     {"name":"inst_415E8BF3","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2E9237E7","path":"rooms/Room1/Room1.yy",},
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    {"name":"inst_918906D","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_1C132C78","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_3013A11C","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5CC07B93","path":"rooms/Room1/Room1.yy",},
+=======
+>>>>>>> Stashed changes
     {"name":"inst_6CFCCE21","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_33F1A88A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_550A48D3","path":"rooms/Room1/Room1.yy",},
@@ -15,6 +24,10 @@
     {"name":"inst_4C87490E","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2DBF17BE","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6045F8BC","path":"rooms/Room1/Room1.yy",},
+<<<<<<< Updated upstream
+=======
+>>>>>>> 6e6e863d091e1d08d44be17472962268bd668b32
+>>>>>>> Stashed changes
   ],
   "isDnd":false,
   "layers":[
