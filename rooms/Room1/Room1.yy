@@ -18,6 +18,7 @@
     {"name":"inst_918906D","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1C132C78","path":"rooms/Room1/Room1.yy",},
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"name":"inst_3013A11C","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5CC07B93","path":"rooms/Room1/Room1.yy",},
 =======
@@ -78,6 +79,8 @@
         {"$GMRInstance":"v4","%Name":"inst_7C6D9ED5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C6D9ED5","objectId":{"name":"Object8","path":"objects/Object8/Object8.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":1.0,"x":576.0,"y":480.0,},
         {"$GMRInstance":"v4","%Name":"inst_70221CB9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70221CB9","objectId":{"name":"objJumpPad","path":"objects/objJumpPad/objJumpPad.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":471.0,},
 =======
+=======
+>>>>>>> parent of 5e9fc08 (added broken logic)
   ],
   "isDnd":false,
   "layers":[
