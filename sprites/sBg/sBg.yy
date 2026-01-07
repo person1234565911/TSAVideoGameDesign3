@@ -1,8 +1,14 @@
 {
   "$GMSprite":"v2",
+<<<<<<< HEAD:sprites/sBg/sBg.yy
   "%Name":"sBg",
   "bboxMode":0,
   "bbox_bottom":239,
+=======
+  "%Name":"Sprite2",
+  "bboxMode":0,
+  "bbox_bottom":31,
+>>>>>>> parent of 5e9fc08 (added broken logic):sprites/Sprite2/Sprite2.yy
   "bbox_left":0,
   "bbox_right":319,
   "bbox_top":0,

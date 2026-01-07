@@ -1,6 +1,10 @@
 {
   "$GMSprite":"v2",
+<<<<<<< HEAD:sprites/sDeath/sDeath.yy
   "%Name":"sDeath",
+=======
+  "%Name":"Sprite4",
+>>>>>>> parent of 5e9fc08 (added broken logic):sprites/Sprite4/Sprite4.yy
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":0,
