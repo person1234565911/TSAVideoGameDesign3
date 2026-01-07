@@ -45,7 +45,7 @@ if (key_space && (place_meeting(x, y + 1, objCollision) or (place_meeting(x, y +
 	image_index = 0;
 	player_jump_check = true;
 	sprite_index = sPlayerJump;
-	
+	audio_play_sound(sfx_jump,10,false);
 
 
 }
@@ -53,6 +53,15 @@ if (key_space && (place_meeting(x, y + 1, objCollision) or (place_meeting(x, y +
 //Death
 if (place_meeting(x,y,objDeath))
 {
+	audio_play_sound(Sound7,10,false);
 	player_isDead = true;
 	game_restart();
+}
+
+if (place_meeting(x,y,objJumpPad))
+{
+	jump_pad_activated = true;
+	player_speed_y = player_jump_pad_height;
+	audio_play_sound(sfx_jump_high,10,false);
+	jump_pad_activated = false;
 }
