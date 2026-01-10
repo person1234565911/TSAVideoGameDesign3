@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Object9",
+  "%Name":"objMovingLR",
   "eventList":[],
   "managed":true,
-  "name":"Object9",
+  "name":"objMovingLR",
   "overriddenProperties":[],
   "parent":{
-    "name":"Blocks",
-    "path":"folders/Blocks.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sPlatformMovingLeftRight",
+    "path":"sprites/sPlatformMovingLeftRight/sPlatformMovingLeftRight.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
