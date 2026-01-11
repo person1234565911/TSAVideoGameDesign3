@@ -15,3 +15,4 @@ else if (!goingToStart && point_distance(x, y, endX, endY) < currentSpeed) {
 	currentSpeed = 0;
 	alarm[0] = waitTime;
 }
+

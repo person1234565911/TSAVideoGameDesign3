@@ -43,6 +43,7 @@
     {"id":{"name":"objMovingLR","path":"objects/objMovingLR/objMovingLR.yy",},},
     {"id":{"name":"objOneWay","path":"objects/objOneWay/objOneWay.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
+    {"id":{"name":"objSolid","path":"objects/objSolid/objSolid.yy",},},
     {"id":{"name":"oPlatformPOint","path":"objects/oPlatformPOint/oPlatformPOint.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sfx_bump","path":"sounds/sfx_bump/sfx_bump.yy",},},

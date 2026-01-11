@@ -19,27 +19,21 @@ if (move == 0 and !player_jump_check)
 	sprite_index = player_idle;
 }
 
-// Final movement velocity
-var _finalMoveX = player_speed_x;
-var _finalMoveY = player_speed_y;
 
 // Moving platform collision
-var _movingPlatform = instance_place(x, y + max(1, _finalMoveY), objMovingLR);
-if (_movingPlatform && bbox_bottom <= _movingPlatform.bbox_top) {
-	// Pixel-perfect collisions
-	if (_finalMoveY > 0) {
-		while (!place_meeting(x, y + sign(_finalMoveY), objMovingLR)) {
-			y += sign(_finalMoveY);
-		}
+// Moving platform detection
+var _movingPlatform = instance_place(x, y + 1, objMovingLR);
+
+if (_movingPlatform != noone)
+{	
+    // Stand on top only
+    if (bbox_bottom <= _movingPlatform.bbox_top + 1)
+    {
+        player_speed_y = 0;
+    }
 	
-		_finalMoveY = 0;
-		player_speed_y = 0; // So the gravity is reset too
-	}
-	
-	// Add velocity
-	x += _movingPlatform.moveX;
-	y += _movingPlatform.moveY;
 }
+
 //Collisions
 one_way = instance_place(x, y + player_speed_y, objOneWay);
 one_way_on_top = one_way != noone && self.bbox_bottom <= one_way.bbox_top+1;
@@ -52,6 +46,7 @@ if (place_meeting(x, y + player_speed_y, objCollision)) or
 	
 	if (player_jump_check)
 	sprite_index = player_land;
+	
 }
 
 
