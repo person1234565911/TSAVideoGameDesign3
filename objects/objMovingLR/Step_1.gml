@@ -8,5 +8,3 @@ if (goingToStart) {
 moveX = sign(_targetX - x) * currentSpeed;
 moveY = sign(_targetY - y) * currentSpeed;
 
-platform_dx = x - xprevious;
-platform_dy = y - yprevious;
