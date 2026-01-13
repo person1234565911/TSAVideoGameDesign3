@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Object9",
+  "%Name":"objSolid",
   "eventList":[],
   "managed":true,
-  "name":"Object9",
+  "name":"objSolid",
   "overriddenProperties":[],
   "parent":{
-    "name":"Blocks",
-    "path":"folders/Blocks.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
