@@ -20,21 +20,7 @@ if (move == 0 and !player_jump_check)
 }
 
 
-// Moving platform collision
-// Moving platform detection
-var _movingPlatform = instance_place(x, y + 1, objMovingLR);
 
-if (_movingPlatform != noone)
-{	
-    // Stand on top only
-    if (bbox_bottom <= _movingPlatform.bbox_top + 1)
-    {
-        player_speed_y = 0;
-    }
-	
-}
-
-//Collisions
 one_way = instance_place(x, y + player_speed_y, objOneWay);
 one_way_on_top = one_way != noone && self.bbox_bottom <= one_way.bbox_top+1;
 
@@ -46,7 +32,6 @@ if (place_meeting(x, y + player_speed_y, objCollision)) or
 	
 	if (player_jump_check)
 	sprite_index = player_land;
-	
 }
 
 
@@ -54,7 +39,7 @@ move_and_collide(move, 0, objCollision);
 move_and_collide(0, player_speed_y, objCollision, 8, 0, 0, player_max_fall_speed);
 
 
-if (key_space && (place_meeting(x, y + 1, objCollision) or (place_meeting(x, y + 1, objOneWay) or place_meeting(x, y + 1, objMovingLR))))
+if (key_space && (place_meeting(x, y + 1, objCollision) or (place_meeting(x, y + 1, objOneWay))))
 {
 	player_speed_y = player_jump_height;
 	image_index = 0;
