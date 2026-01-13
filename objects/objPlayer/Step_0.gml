@@ -32,12 +32,26 @@ if (_movingPlatform != noone) {
 // --- VERTICAL COLLISIONS ---
 var one_way = instance_place(x, y + player_speed_y, objOneWay);
 var one_way_on_top = one_way != noone && bbox_bottom <= one_way.bbox_top + 1;
+if (move == 0 and !player_jump_check)
+{
+	sprite_index = player_idle;
+}
+
+
+
+one_way = instance_place(x, y + player_speed_y, objOneWay);
+one_way_on_top = one_way != noone && self.bbox_bottom <= one_way.bbox_top+1;
 
 if (place_meeting(x, y + player_speed_y, objCollision) || 
     (place_meeting(x, y + player_speed_y, objOneWay) && one_way_on_top)) 
 {
     player_speed_y = 0;
     if (player_jump_check) sprite_index = player_land;
+	player_speed_y = 0;
+	
+	
+	if (player_jump_check)
+	sprite_index = player_land;
 }
 
 // --- MOVE AND COLLIDE ---
@@ -48,6 +62,8 @@ move_and_collide(0, player_speed_y, objCollision, 8, 0, 0, player_max_fall_speed
 if (key_jump && (place_meeting(x, y + 1, objCollision) || 
                  place_meeting(x, y + 1, objOneWay) || 
                  place_meeting(x, y + 1, objMovingLR))) 
+
+if (key_space && (place_meeting(x, y + 1, objCollision) or (place_meeting(x, y + 1, objOneWay))))
 {
     player_speed_y = player_jump_height;
     player_jump_check = true;

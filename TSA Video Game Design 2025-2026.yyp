@@ -15,10 +15,32 @@
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+    {"$GMFolder":"","%Name":"Collidable_Tiles","folderPath":"folders/Sprites/Collidable_Tiles.yy","name":"Collidable_Tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Non_Collidable_Tiles","folderPath":"folders/Sprites/Non_Collidable_Tiles.yy","name":"Non_Collidable_Tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     {"$GMFolder":"","%Name":"Game Sprites","folderPath":"folders/Sprites/Game Sprites.yy","name":"Game Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tilesets Sprites","folderPath":"folders/Sprites/Tilesets Sprites.yy","name":"Tilesets Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"TileSets","folderPath":"folders/TileSets.yy","name":"TileSets","resourceType":"GMFolder","resourceVersion":"2.0",},
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> 6e6e863d091e1d08d44be17472962268bd668b32
+>>>>>>> Stashed changes
+=======
+>>>>>>> 6e6e863d091e1d08d44be17472962268bd668b32
+>>>>>>> Stashed changes
   ],
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.gm_filter_clouds-1.0.0","name":"io.gamemaker.gm_filter_clouds-1.0.0","path":"io.gamemaker.gm_filter_clouds-1.0.0.yyp",},
@@ -38,13 +60,11 @@
     {"id":{"name":"objDeath","path":"objects/objDeath/objDeath.yy",},},
     {"id":{"name":"objDeathandTRansitionAnimation","path":"objects/objDeathandTRansitionAnimation/objDeathandTRansitionAnimation.yy",},},
     {"id":{"name":"Object8","path":"objects/Object8/Object8.yy",},},
+    {"id":{"name":"Object9","path":"objects/Object9/Object9.yy",},},
     {"id":{"name":"objGame","path":"objects/objGame/objGame.yy",},},
     {"id":{"name":"objJumpPad","path":"objects/objJumpPad/objJumpPad.yy",},},
-    {"id":{"name":"objMovingLR","path":"objects/objMovingLR/objMovingLR.yy",},},
     {"id":{"name":"objOneWay","path":"objects/objOneWay/objOneWay.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
-    {"id":{"name":"objSolid","path":"objects/objSolid/objSolid.yy",},},
-    {"id":{"name":"oPlatformPOint","path":"objects/oPlatformPOint/oPlatformPOint.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sfx_bump","path":"sounds/sfx_bump/sfx_bump.yy",},},
     {"id":{"name":"sfx_coin","path":"sounds/sfx_coin/sfx_coin.yy",},},
@@ -60,7 +80,7 @@
     {"id":{"name":"sJumpPad","path":"sprites/sJumpPad/sJumpPad.yy",},},
     {"id":{"name":"sOneWay","path":"sprites/sOneWay/sOneWay.yy",},},
     {"id":{"name":"sPlatformMovingLeftRight","path":"sprites/sPlatformMovingLeftRight/sPlatformMovingLeftRight.yy",},},
-    {"id":{"name":"sPLatformPoint","path":"sprites/sPLatformPoint/sPLatformPoint.yy",},},
+    {"id":{"name":"sPlatformMovingUpDown","path":"sprites/sPlatformMovingUpDown/sPlatformMovingUpDown.yy",},},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},},
     {"id":{"name":"sPlayerJump","path":"sprites/sPlayerJump/sPlayerJump.yy",},},
     {"id":{"name":"sPlayerLand","path":"sprites/sPlayerLand/sPlayerLand.yy",},},

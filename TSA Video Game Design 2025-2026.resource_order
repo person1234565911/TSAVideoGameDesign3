@@ -5,22 +5,42 @@
     {"name":"Rooms","order":5,"path":"folders/Rooms.yy",},
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+    {"name":"Collidable_Tiles","order":3,"path":"folders/Sprites/Collidable_Tiles.yy",},
+    {"name":"Non_Collidable_Tiles","order":2,"path":"folders/Sprites/Non_Collidable_Tiles.yy",},
+    {"name":"Player","order":4,"path":"folders/Sprites/Player.yy",},
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     {"name":"Game Sprites","order":12,"path":"folders/Sprites/Game Sprites.yy",},
     {"name":"Player","order":4,"path":"folders/Sprites/Player.yy",},
     {"name":"Tilesets Sprites","order":11,"path":"folders/Sprites/Tilesets Sprites.yy",},
     {"name":"TileSets","order":6,"path":"folders/TileSets.yy",},
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> 6e6e863d091e1d08d44be17472962268bd668b32
+>>>>>>> Stashed changes
+=======
+>>>>>>> 6e6e863d091e1d08d44be17472962268bd668b32
+>>>>>>> Stashed changes
   ],
   "ResourceOrderSettings":[
     {"name":"objCollision","order":2,"path":"objects/objCollision/objCollision.yy",},
     {"name":"objDeath","order":4,"path":"objects/objDeath/objDeath.yy",},
     {"name":"objDeathandTRansitionAnimation","order":5,"path":"objects/objDeathandTRansitionAnimation/objDeathandTRansitionAnimation.yy",},
     {"name":"Object8","order":7,"path":"objects/Object8/Object8.yy",},
+    {"name":"Object9","order":3,"path":"objects/Object9/Object9.yy",},
     {"name":"objJumpPad","order":6,"path":"objects/objJumpPad/objJumpPad.yy",},
-    {"name":"objMovingLR","order":8,"path":"objects/objMovingLR/objMovingLR.yy",},
     {"name":"objOneWay","order":3,"path":"objects/objOneWay/objOneWay.yy",},
     {"name":"objPlayer","order":1,"path":"objects/objPlayer/objPlayer.yy",},
-    {"name":"objSolid","order":10,"path":"objects/objSolid/objSolid.yy",},
-    {"name":"oPlatformPOint","order":9,"path":"objects/oPlatformPOint/oPlatformPOint.yy",},
     {"name":"sfx_bump","order":4,"path":"sounds/sfx_bump/sfx_bump.yy",},
     {"name":"sfx_coin","order":5,"path":"sounds/sfx_coin/sfx_coin.yy",},
     {"name":"sfx_jump_high","order":2,"path":"sounds/sfx_jump_high/sfx_jump_high.yy",},
@@ -33,7 +53,7 @@
     {"name":"sDeath","order":2,"path":"sprites/sDeath/sDeath.yy",},
     {"name":"sOneWay","order":5,"path":"sprites/sOneWay/sOneWay.yy",},
     {"name":"sPlatformMovingLeftRight","order":7,"path":"sprites/sPlatformMovingLeftRight/sPlatformMovingLeftRight.yy",},
-    {"name":"sPLatformPoint","order":9,"path":"sprites/sPLatformPoint/sPLatformPoint.yy",},
+    {"name":"sPlatformMovingUpDown","order":8,"path":"sprites/sPlatformMovingUpDown/sPlatformMovingUpDown.yy",},
     {"name":"sPlayerJump","order":2,"path":"sprites/sPlayerJump/sPlayerJump.yy",},
     {"name":"sPlayerLand","order":3,"path":"sprites/sPlayerLand/sPlayerLand.yy",},
     {"name":"sPlayerRun","order":1,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
