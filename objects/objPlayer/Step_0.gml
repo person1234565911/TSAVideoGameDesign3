@@ -22,7 +22,7 @@ if (move == 0 and !player_jump_check)
 
 // Moving platform collision
 // Moving platform detection
-var _movingPlatform = instance_place(x, y + 1, objMovingLR);
+var _movingPlatform = instance_place(x, y + player_speed_y, objMovingLR);
 
 if (_movingPlatform != noone)
 {	
@@ -30,6 +30,8 @@ if (_movingPlatform != noone)
     if (bbox_bottom <= _movingPlatform.bbox_top + 1)
     {
         player_speed_y = 0;
+		x += _movingPlatform.moveX;
+		y += _movingPlatform.moveY;
     }
 	
 }
