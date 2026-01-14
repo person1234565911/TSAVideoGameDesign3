@@ -33,6 +33,10 @@ if (_movingPlatform != noone)
 		x += _movingPlatform.moveX;
 		y += _movingPlatform.moveY;
     }
+	if (bbox_bottom <= _movingPlatform.bbox_top + 1) and player_jump_check == true
+    {
+        sprite_index = player_land;
+    }
 	
 }
 
