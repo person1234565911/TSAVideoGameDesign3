@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objOneWay",
+  "%Name":"objBreakingAnim",
   "eventList":[],
   "managed":true,
-  "name":"objOneWay",
+  "name":"objBreakingAnim",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sOneWay",
-    "path":"sprites/sOneWay/sOneWay.yy",
+    "name":"sBreakingBlock",
+    "path":"sprites/sBreakingBlock/sBreakingBlock.yy",
   },
   "spriteMaskId":null,
   "visible":true,

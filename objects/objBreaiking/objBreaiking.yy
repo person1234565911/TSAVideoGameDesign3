@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objSolid",
+  "%Name":"objBreaiking",
   "eventList":[],
   "managed":true,
-  "name":"objSolid",
+  "name":"objBreaiking",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sBreakingCol",
+    "path":"sprites/sBreakingCol/sBreakingCol.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

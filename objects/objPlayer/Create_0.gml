@@ -6,8 +6,9 @@ player_jump_height = -7; // Jump Height
 player_jump_check = false;
 player_max_fall_speed = 8;
 player_isDead = false;
-player_jump_pad_height = -10
+player_jump_pad_height = -9;
 jump_pad_activated = false;
+breaking = false;
 
 player_idle = sPlayerIdle;
 player_run = sPlayerRun;
