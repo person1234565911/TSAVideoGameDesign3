@@ -27,6 +27,7 @@
     {"name":"objOneWay","order":3,"path":"objects/objOneWay/objOneWay.yy",},
     {"name":"objPlayer","order":1,"path":"objects/objPlayer/objPlayer.yy",},
     {"name":"objSolid","order":10,"path":"objects/objSolid/objSolid.yy",},
+    {"name":"oCamera","order":13,"path":"objects/oCamera/oCamera.yy",},
     {"name":"oPlatformPOint","order":9,"path":"objects/oPlatformPOint/oPlatformPOint.yy",},
     {"name":"tree2","order":6,"path":"objects/tree2/tree2.yy",},
     {"name":"tree3","order":5,"path":"objects/tree3/tree3.yy",},
