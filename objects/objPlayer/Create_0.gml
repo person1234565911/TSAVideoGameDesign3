@@ -9,6 +9,7 @@ player_isDead = false;
 player_jump_pad_height = -9;
 jump_pad_activated = false;
 breaking = false;
+waitTime = 150;
 
 player_idle = sPlayerIdle;
 player_run = sPlayerRun;

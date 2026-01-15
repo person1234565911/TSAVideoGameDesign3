@@ -42,7 +42,7 @@
     {"id":{"name":"bush2","path":"objects/bush2/bush2.yy",},},
     {"id":{"name":"bush3","path":"objects/bush3/bush3.yy",},},
     {"id":{"name":"bush4","path":"objects/bush4/bush4.yy",},},
-    {"id":{"name":"objBreaiking","path":"objects/objBreaiking/objBreaiking.yy",},},
+    {"id":{"name":"objBreaking","path":"objects/objBreaking/objBreaking.yy",},},
     {"id":{"name":"objBreakingAnim","path":"objects/objBreakingAnim/objBreakingAnim.yy",},},
     {"id":{"name":"objCollision","path":"objects/objCollision/objCollision.yy",},},
     {"id":{"name":"objDeath","path":"objects/objDeath/objDeath.yy",},},

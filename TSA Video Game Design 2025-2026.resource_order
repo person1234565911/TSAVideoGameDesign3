@@ -18,7 +18,7 @@
     {"name":"bush1","order":3,"path":"objects/bush1/bush1.yy",},
     {"name":"bush2","order":2,"path":"objects/bush2/bush2.yy",},
     {"name":"bush3","order":1,"path":"objects/bush3/bush3.yy",},
-    {"name":"objBreaiking","order":14,"path":"objects/objBreaiking/objBreaiking.yy",},
+    {"name":"objBreaking","order":14,"path":"objects/objBreaking/objBreaking.yy",},
     {"name":"objBreakingAnim","order":15,"path":"objects/objBreakingAnim/objBreakingAnim.yy",},
     {"name":"objCollision","order":2,"path":"objects/objCollision/objCollision.yy",},
     {"name":"objDeath","order":4,"path":"objects/objDeath/objDeath.yy",},
