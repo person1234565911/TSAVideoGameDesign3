@@ -40,12 +40,36 @@ if (_movingPlatform != noone)
 	
 }
 
+var _BreakingBlock = instance_place(x, y + player_speed_y, objBreaiking);
+
+if (_BreakingBlock != noone)
+{	
+    if (bbox_top <= _BreakingBlock.bbox_bottom + 1)
+    {
+        player_speed_y = 0;
+		
+    }
+	if (bbox_top <= _BreakingBlock.bbox_bottom + 1) and player_jump_check == true
+    {
+        sprite_index = player_land;
+    }
+	
+}
+
+if breaking_block_on_top {
+	global.breakingBlockBroken == true;	
+}
+
 //Collisions
 one_way = instance_place(x, y + player_speed_y, objOneWay);
 one_way_on_top = one_way != noone && self.bbox_bottom <= one_way.bbox_top+1;
 
+breaking_block = instance_place(x, y + player_speed_y, objBreaiking);
+breaking_block_on_top = breaking_block != noone && self.bbox_bottom <= breaking_block.bbox_top+1;
+
 if (place_meeting(x, y + player_speed_y, objCollision)) or 
-	(place_meeting(x, y + player_speed_y,objOneWay) && one_way_on_top)
+	(place_meeting(x, y + player_speed_y,objOneWay) && one_way_on_top) or
+	(place_meeting(x, y + player_speed_y,objBreaiking))
 {
 	player_speed_y = 0;
 	
@@ -60,7 +84,7 @@ move_and_collide(move, 0, objCollision);
 move_and_collide(0, player_speed_y, objCollision, 8, 0, 0, player_max_fall_speed);
 
 
-if (key_space && (place_meeting(x, y + 1, objCollision) or (place_meeting(x, y + 1, objOneWay) or place_meeting(x, y + 1, objMovingLR))))
+if (key_space && (place_meeting(x, y + 1, objCollision) or (place_meeting(x, y + 1, objOneWay) or place_meeting(x, y + 1, objMovingLR) or place_meeting(x, y + 1, objBreaiking))))
 {
 	player_speed_y = player_jump_height;
 	image_index = 0;
