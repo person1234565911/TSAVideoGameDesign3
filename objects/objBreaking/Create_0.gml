@@ -1,1 +1,2 @@
-waitTime = 150;
+broken = false;
+mask_index = 0;

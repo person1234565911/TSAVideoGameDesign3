@@ -33,30 +33,32 @@ if (_movingPlatform != noone)
 		x += _movingPlatform.moveX;
 		y += _movingPlatform.moveY;
     }
-	if (bbox_bottom <= _movingPlatform.bbox_top + 1) and player_jump_check == true
+	if ((bbox_bottom <= _movingPlatform.bbox_top + 1) && player_jump_check == true)
     {
         sprite_index = player_land;
     }
 	
 }
 
-
-
-
 //Collisions
 one_way = instance_place(x, y + player_speed_y, objOneWay);
 one_way_on_top = one_way != noone && self.bbox_bottom <= one_way.bbox_top+1;
 
-breaking_block = instance_place(x, y + player_speed_y, objBreaking);
-breaking_block_on_top = breaking_block != noone && self.bbox_bottom <= breaking_block.bbox_top+1;
+var breaking_block = instance_place(x, y + player_speed_y, objBreaking);
+if (breaking_block != noone && self.bbox_bottom <= breaking_block.bbox_top + 1)
+{
+    with (breaking_block)
+    {
+        broken = true;
+        sprite_index = sBreakingCol;
+        image_speed = 1;
+    }
+}
 
 
 
-
-
-if (place_meeting(x, y + player_speed_y, objCollision)) or 
-	(place_meeting(x, y + player_speed_y,objOneWay) && one_way_on_top) or
-	(place_meeting(x, y + player_speed_y,objBreaking))
+if (place_meeting(x, y + player_speed_y, objSolid)) or 
+	(place_meeting(x, y + player_speed_y,objOneWay) && one_way_on_top)
 {
 	player_speed_y = 0;
 	
@@ -66,19 +68,13 @@ if (place_meeting(x, y + player_speed_y, objCollision)) or
 	
 }
 
-
-move_and_collide(move, 0, objCollision);
-move_and_collide(0, player_speed_y, objCollision, 8, 0, 0, player_max_fall_speed);
-move_and_collide(move, 0, objBreaking);
-move_and_collide(0, player_speed_y, objBreaking, 8, 0, 0, player_max_fall_speed);
-
-
+move_and_collide(move, 0, objSolid);
+move_and_collide(0, player_speed_y, objSolid, 8, 0, 0, player_max_fall_speed);
 
 var _on_ground =
-    place_meeting(x, y + 1, objCollision) ||
+    place_meeting(x, y + 1, objSolid) ||
     place_meeting(x, y + 1, objOneWay) ||
-    place_meeting(x, y + 1, objMovingLR) ||
-    place_meeting(x, y + 1, objBreaking);
+    place_meeting(x, y + 1, objMovingLR);
 
 if (key_space && _on_ground)
 {
@@ -92,7 +88,6 @@ if (key_space && _on_ground)
 //Death
 if (place_meeting(x,y,objDeath))
 {
-	audio_play_sound(Sound7,10,false);
 	player_isDead = true;
 	game_restart();
 }
