@@ -77,6 +77,7 @@
     {"id":{"name":"jump_pad","path":"sprites/jump_pad/jump_pad.yy",},},
     {"id":{"name":"sBg","path":"sprites/sBg/sBg.yy",},},
     {"id":{"name":"sBreakingCol","path":"sprites/sBreakingCol/sBreakingCol.yy",},},
+    {"id":{"name":"sBreakingFIrst","path":"sprites/sBreakingFIrst/sBreakingFIrst.yy",},},
     {"id":{"name":"sCollision","path":"sprites/sCollision/sCollision.yy",},},
     {"id":{"name":"sDeath","path":"sprites/sDeath/sDeath.yy",},},
     {"id":{"name":"sJumpPad","path":"sprites/sJumpPad/sJumpPad.yy",},},
