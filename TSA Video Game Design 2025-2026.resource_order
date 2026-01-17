@@ -48,6 +48,7 @@
     {"name":"jump_pad","order":2,"path":"sprites/jump_pad/jump_pad.yy",},
     {"name":"sBg","order":6,"path":"sprites/sBg/sBg.yy",},
     {"name":"sBreakingCol","order":13,"path":"sprites/sBreakingCol/sBreakingCol.yy",},
+    {"name":"sBreakingFIrst","order":14,"path":"sprites/sBreakingFIrst/sBreakingFIrst.yy",},
     {"name":"sCollision","order":1,"path":"sprites/sCollision/sCollision.yy",},
     {"name":"sDeath","order":2,"path":"sprites/sDeath/sDeath.yy",},
     {"name":"sOneWay","order":5,"path":"sprites/sOneWay/sOneWay.yy",},
