@@ -170,10 +170,7 @@
     {"name":"inst_2FC876D5","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5694F79A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_55FB23F2","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_3A6A9CCD","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_38AC4484","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_26B50E98","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_7DF1E7C","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_3B26F8F2","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -227,10 +224,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oPlatformPOint","path":"objects/oPlatformPOint/oPlatformPOint.yy",},"propertyId":{"name":"platformID","path":"objects/oPlatformPOint/oPlatformPOint.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"platform2",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oPlatformPOint","path":"objects/oPlatformPOint/oPlatformPOint.yy",},"propertyId":{"name":"startingPoint","path":"objects/oPlatformPOint/oPlatformPOint.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":272.0,},
-        {"$GMRInstance":"v4","%Name":"inst_3A6A9CCD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3A6A9CCD","objectId":{"name":"objBreaking","path":"objects/objBreaking/objBreaking.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":648.0,"y":432.0,},
-        {"$GMRInstance":"v4","%Name":"inst_38AC4484","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_38AC4484","objectId":{"name":"objBreaking","path":"objects/objBreaking/objBreaking.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":632.0,"y":432.0,},
-        {"$GMRInstance":"v4","%Name":"inst_26B50E98","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_26B50E98","objectId":{"name":"objBreaking","path":"objects/objBreaking/objBreaking.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":616.0,"y":432.0,},
-        {"$GMRInstance":"v4","%Name":"inst_7DF1E7C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7DF1E7C","objectId":{"name":"objBreaking","path":"objects/objBreaking/objBreaking.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":600.0,"y":432.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3B26F8F2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B26F8F2","objectId":{"name":"objBreaking","path":"objects/objBreaking/objBreaking.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":592.0,"y":384.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"bushes_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_79689761","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_79689761","objectId":{"name":"bush1","path":"objects/bush1/bush1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":592.0,},

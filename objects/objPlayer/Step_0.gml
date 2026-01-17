@@ -77,7 +77,7 @@ if (key_space && _on_ground)
     image_index = 0;
     player_jump_check = true;
     sprite_index = sPlayerJump;
-    audio_play_sound(sfx_jump, 10, false);
+	audio_play_sound(sfx_jump, 10, false);
 }
 
 //Death
@@ -89,7 +89,7 @@ if (place_meeting(x,y,objDeath))
 
 if (place_meeting(x,y,objJumpPad))
 {
-	jump_pad_activated = true;
+	jump_pad_activated = true;	
 	player_speed_y = player_jump_pad_height;
 	audio_play_sound(sfx_jump_high,10,false);
 	jump_pad_activated = false;

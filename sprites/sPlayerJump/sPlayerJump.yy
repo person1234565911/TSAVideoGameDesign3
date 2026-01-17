@@ -3,7 +3,7 @@
   "%Name":"sPlayerJump",
   "bboxMode":2,
   "bbox_bottom":31,
-  "bbox_left":11,
+  "bbox_left":12,
   "bbox_right":20,
   "bbox_top":12,
   "collisionKind":1,
