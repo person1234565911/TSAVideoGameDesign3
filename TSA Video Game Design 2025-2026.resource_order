@@ -21,6 +21,7 @@
     {"name":"objBreaking","order":14,"path":"objects/objBreaking/objBreaking.yy",},
     {"name":"objCollision","order":2,"path":"objects/objCollision/objCollision.yy",},
     {"name":"objDeath","order":4,"path":"objects/objDeath/objDeath.yy",},
+    {"name":"objDeathTRANSITIONNN","order":17,"path":"objects/objDeathTRANSITIONNN/objDeathTRANSITIONNN.yy",},
     {"name":"Object8","order":7,"path":"objects/Object8/Object8.yy",},
     {"name":"objJumpPad","order":6,"path":"objects/objJumpPad/objJumpPad.yy",},
     {"name":"objMovingLR","order":8,"path":"objects/objMovingLR/objMovingLR.yy",},

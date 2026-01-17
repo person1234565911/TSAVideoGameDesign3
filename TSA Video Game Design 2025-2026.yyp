@@ -45,6 +45,7 @@
     {"id":{"name":"objBreaking","path":"objects/objBreaking/objBreaking.yy",},},
     {"id":{"name":"objCollision","path":"objects/objCollision/objCollision.yy",},},
     {"id":{"name":"objDeath","path":"objects/objDeath/objDeath.yy",},},
+    {"id":{"name":"objDeathTRANSITIONNN","path":"objects/objDeathTRANSITIONNN/objDeathTRANSITIONNN.yy",},},
     {"id":{"name":"Object8","path":"objects/Object8/Object8.yy",},},
     {"id":{"name":"objGame","path":"objects/objGame/objGame.yy",},},
     {"id":{"name":"objJumpPad","path":"objects/objJumpPad/objJumpPad.yy",},},
