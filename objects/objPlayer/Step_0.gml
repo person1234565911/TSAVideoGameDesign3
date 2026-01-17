@@ -43,16 +43,11 @@ if (_movingPlatform != noone)
 //Collisions
 one_way = instance_place(x, y + player_speed_y, objOneWay);
 one_way_on_top = one_way != noone && self.bbox_bottom <= one_way.bbox_top+1;
-
-var breaking_block = instance_place(x, y + player_speed_y, objBreaking);
+breaking_block = instance_place(x, y + player_speed_y, objBreaking);
 if (breaking_block != noone && self.bbox_bottom <= breaking_block.bbox_top + 1)
 {
-    with (breaking_block)
-    {
-        broken = true;
-        sprite_index = sBreakingCol;
-        image_speed = 1;
-    }
+	global.breakingBlockBroken = true;	
+	alarm[0] = waitTime;
 }
 
 
