@@ -46,8 +46,7 @@ one_way_on_top = one_way != noone && self.bbox_bottom <= one_way.bbox_top+1;
 breaking_block = instance_place(x, y + player_speed_y, objBreaking);
 if (breaking_block != noone && self.bbox_bottom <= breaking_block.bbox_top + 1)
 {
-	global.breakingBlockBroken = true;	
-	alarm[0] = waitTime;
+
 }
 
 
