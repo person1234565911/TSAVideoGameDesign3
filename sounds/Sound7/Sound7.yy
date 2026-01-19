@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":3.3840137,
+  "duration":142.05333,
   "exportDir":"",
   "name":"Sound7",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Sound7.mp3",
+  "soundFile":"Sound7.wav",
   "volume":1.0,
 }

@@ -5,6 +5,8 @@ if (instance_exists(follow))
 }
 
 if (global.player_isDead == true) {
-	TransitionStart(target,sqFadeOut,sqFadeIn);
-	game_restart()
+	objCamera.x = 320;
+	objCamera.y = 474;
+	TransitionStart(global.target,sqFadeOut,sqFadeIn);
+	game_restart();
 }

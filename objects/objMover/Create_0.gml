@@ -1,4 +1,4 @@
 follow = objPlayer;
 xTo = xstart;
 yTo = ystart;
-target = Room1;
+global.target = Room1;
