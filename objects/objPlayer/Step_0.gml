@@ -80,10 +80,11 @@ if (key_space && _on_ground)
 }
 
 //Death
-if (place_meeting(x, y, objDeath))
+if (y > room_height + 100 && !global.player_isDead)
 {
     global.player_isDead = true;
 }
+
 
 
 
@@ -91,6 +92,6 @@ if (place_meeting(x,y,objJumpPad))
 {
 	jump_pad_activated = true;	
 	player_speed_y = player_jump_pad_height;
-	audio_play_sound(sfx_jump_high,10,false);
+	audio_play_sound(sfx_jump_high,11,false);
 	jump_pad_activated = false;
 }

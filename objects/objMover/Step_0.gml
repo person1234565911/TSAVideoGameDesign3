@@ -11,4 +11,6 @@ if (global.player_isDead == true) {
 	objCamera.y = 474;
 	TransitionStart(global.target,sqFadeOut,sqFadeIn);
 	alarm[0] = waitTime;
+	
+	
 }

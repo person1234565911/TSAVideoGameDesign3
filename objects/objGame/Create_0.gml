@@ -5,3 +5,5 @@ global.player_y = y;
 global.breakingBlockBroken = false;
 global.player_isDead = false;
 global.levelTransition = false;
+global.transitionHandled = false;
+global.target = room;
