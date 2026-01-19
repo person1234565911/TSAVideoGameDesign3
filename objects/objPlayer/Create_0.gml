@@ -10,6 +10,8 @@ jump_pad_activated = false;
 breaking = false;
 waitTime = 150;
 
+global.player_isDead = false;
+
 
 player_idle = sPlayerIdle;
 player_run = sPlayerRun;

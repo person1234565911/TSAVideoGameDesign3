@@ -80,10 +80,12 @@ if (key_space && _on_ground)
 }
 
 //Death
-if (place_meeting(x,y,objDeath))
+if (place_meeting(x, y, objDeath))
 {
-	global.player_isDead = true;
+    global.player_isDead = true;
 }
+
+
 
 if (place_meeting(x,y,objJumpPad))
 {
