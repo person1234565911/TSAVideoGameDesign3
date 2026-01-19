@@ -82,8 +82,7 @@ if (key_space && _on_ground)
 //Death
 if (place_meeting(x,y,objDeath))
 {
-	player_isDead = true;
-	game_restart();
+	global.player_isDead = true;
 }
 
 if (place_meeting(x,y,objJumpPad))
