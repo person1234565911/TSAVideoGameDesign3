@@ -4,5 +4,4 @@ if (place_meeting(x,y,objPlayer)) {
 	
 	
 	TransitionStart(global.target,sqFadeOut,sqFadeIn);
-	
 }

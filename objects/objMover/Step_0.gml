@@ -6,11 +6,10 @@ if (instance_exists(follow))
 	yTo = follow.y;
 }
 
-if (global.player_isDead == true) {
+if (global.playerDead == true) {
 	objCamera.x = 320;
 	objCamera.y = 474;
 	TransitionStart(global.target,sqFadeOut,sqFadeIn);
 	alarm[0] = waitTime;
-	
-	
+
 }
