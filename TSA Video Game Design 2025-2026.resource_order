@@ -65,6 +65,7 @@
     {"name":"sBreakingCol","order":11,"path":"sprites/sBreakingCol/sBreakingCol.yy",},
     {"name":"sCollision","order":1,"path":"sprites/sCollision/sCollision.yy",},
     {"name":"sDeath","order":2,"path":"sprites/sDeath/sDeath.yy",},
+    {"name":"sJumpPadRisen","order":18,"path":"sprites/sJumpPadRisen/sJumpPadRisen.yy",},
     {"name":"sMarker","order":16,"path":"sprites/sMarker/sMarker.yy",},
     {"name":"sMover","order":15,"path":"sprites/sMover/sMover.yy",},
     {"name":"sOneWay","order":5,"path":"sprites/sOneWay/sOneWay.yy",},

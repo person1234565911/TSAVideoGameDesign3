@@ -99,6 +99,7 @@
     {"id":{"name":"sCollision","path":"sprites/sCollision/sCollision.yy",},},
     {"id":{"name":"sDeath","path":"sprites/sDeath/sDeath.yy",},},
     {"id":{"name":"sJumpPad","path":"sprites/sJumpPad/sJumpPad.yy",},},
+    {"id":{"name":"sJumpPadRisen","path":"sprites/sJumpPadRisen/sJumpPadRisen.yy",},},
     {"id":{"name":"sMarker","path":"sprites/sMarker/sMarker.yy",},},
     {"id":{"name":"sMover","path":"sprites/sMover/sMover.yy",},},
     {"id":{"name":"sOneWay","path":"sprites/sOneWay/sOneWay.yy",},},

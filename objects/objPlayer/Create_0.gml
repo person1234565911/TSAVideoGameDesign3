@@ -11,6 +11,7 @@ breaking = false; // i have no clue honestly
 waitTime = 150; // temp
 player_isDead = false; // temp
 falling = false; // checks if falling
+pad_used = false;
 
 
 // Animation sprites
