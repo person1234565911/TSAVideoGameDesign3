@@ -30,6 +30,7 @@
     {"name":"objLevelTransition","order":21,"path":"objects/objLevelTransition/objLevelTransition.yy",},
     {"name":"objMover","order":19,"path":"objects/objMover/objMover.yy",},
     {"name":"objMovingLR","order":8,"path":"objects/objMovingLR/objMovingLR.yy",},
+    {"name":"objMusic","order":23,"path":"objects/objMusic/objMusic.yy",},
     {"name":"objOneWay","order":3,"path":"objects/objOneWay/objOneWay.yy",},
     {"name":"objPlayer","order":1,"path":"objects/objPlayer/objPlayer.yy",},
     {"name":"objSign","order":22,"path":"objects/objSign/objSign.yy",},

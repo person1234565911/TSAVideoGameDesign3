@@ -9,7 +9,9 @@ if (instance_exists(follow))
 if (global.playerDead == true) {
 	objCamera.x = 320;
 	objCamera.y = 474;
+	transitionStartCheck = true;
 	TransitionStart(global.target,sqFadeOut,sqFadeIn);
+	
 	alarm[0] = waitTime;
 
 }
