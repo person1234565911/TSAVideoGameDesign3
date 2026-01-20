@@ -1,4 +1,4 @@
-// Create Event
+// Setting up variables and animation controls
 triggered = false;
-alarm[0] = -1;  // inactive
-image_speed = 0; // don't animate until triggered
+alarm[0] = -1;  
+image_speed = 0;

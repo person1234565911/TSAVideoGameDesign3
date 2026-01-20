@@ -105,6 +105,7 @@
     {"id":{"name":"sPixel","path":"sprites/sPixel/sPixel.yy",},},
     {"id":{"name":"sPlatformMovingLeftRight","path":"sprites/sPlatformMovingLeftRight/sPlatformMovingLeftRight.yy",},},
     {"id":{"name":"sPLatformPoint","path":"sprites/sPLatformPoint/sPLatformPoint.yy",},},
+    {"id":{"name":"sPlayerFalling","path":"sprites/sPlayerFalling/sPlayerFalling.yy",},},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},},
     {"id":{"name":"sPlayerJump","path":"sprites/sPlayerJump/sPlayerJump.yy",},},
     {"id":{"name":"sPlayerLand","path":"sprites/sPlayerLand/sPlayerLand.yy",},},

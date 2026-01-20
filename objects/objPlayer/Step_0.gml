@@ -1,13 +1,13 @@
-
-
-
-key_left = keyboard_check(ord("A")) or keyboard_check(vk_left);
-key_right = keyboard_check(ord("D")) or keyboard_check(vk_right);
-key_space = keyboard_check(vk_space) or keyboard_check(vk_up) or keyboard_check(ord("W"));
+// Setting up key press variables
+key_left = keyboard_check(ord("A"))
+key_right = keyboard_check(ord("D"))
+key_space = keyboard_check(ord("W"));
 
 move = (key_right - key_left) * player_speed_x;
 player_speed_y += player_grav;
 
+
+// Left and right movements
 if (move != 0)
 {
 	if (!player_jump_check)
@@ -17,57 +17,44 @@ if (move != 0)
 	image_xscale = sign(move);
 }
 
+// Idle animation triggering
 if (move == 0 and !player_jump_check)
 {
 	sprite_index = player_idle;
 }
 
 
-// Moving platform collision
-// Moving platform detection
-var _movingPlatform = instance_place(x, y + player_speed_y, objMovingLR);
 
-if (_movingPlatform != noone)
-{	
-    // Stand on top only
-    if (bbox_bottom <= _movingPlatform.bbox_top + 1)
-    {
-        player_speed_y = 0;
-		x += _movingPlatform.moveX;
-		y += _movingPlatform.moveY;
-    }
-	if ((bbox_bottom <= _movingPlatform.bbox_top + 1) && player_jump_check == true)
-    {
-        sprite_index = player_land;
-    }
-	
-}
-
-//Collisions
+//Collision related variables
 one_way = instance_place(x, y + player_speed_y, objOneWay);
 one_way_on_top = one_way != noone && self.bbox_bottom <= one_way.bbox_top+1;
 breaking_block = instance_place(x, y + player_speed_y, objBreaking);
-if (breaking_block != noone && self.bbox_bottom <= breaking_block.bbox_top + 1)
-{
+movingPlatform = instance_place(x, y + player_speed_y, objMovingLR);
 
-}
-
-
-
+// Checking for collisions
 if (place_meeting(x, y + player_speed_y, objSolid)) or 
 	(place_meeting(x, y + player_speed_y,objOneWay) && one_way_on_top)
 {
 	player_speed_y = 0;
 	
 	
-	if (player_jump_check)
-	sprite_index = player_land;
-	
+	if (player_jump_check){
+		sprite_index = player_land;
+	}
+}
+if (movingPlatform != noone)
+{	
+    player_speed_y = 0;
+	x += movingPlatform.moveX;
+	y += movingPlatform.moveY;
 }
 
+// Actually applying collisions to objSolid
 move_and_collide(move, 0, objSolid);
 move_and_collide(0, player_speed_y, objSolid, 8, 0, 0, player_max_fall_speed);
 
+
+// Jumping
 var _on_ground =
     place_meeting(x, y + 1, objSolid) ||
     place_meeting(x, y + 1, objOneWay) ||
@@ -89,13 +76,23 @@ if (place_meeting(x,y,objDeath))
 
 }
 
-
-
-
+// Jump Pads
 if (place_meeting(x,y,objJumpPad))
 {
-	jump_pad_activated = true;	
 	player_speed_y = player_jump_pad_height;
+	image_index = 0;
+	jump_pad_activated = true;
 	audio_play_sound(sfx_jump_high,11,false);
-	jump_pad_activated = false;
+}
+
+// Falling animation
+if (!player_jump_check && player_speed_y > 0 && !_on_ground)
+{
+    sprite_index = player_fall;
+	falling = true
+	
+	if _on_ground {
+		sprite_index = player_land;
+		falling = false;
+	}
 }

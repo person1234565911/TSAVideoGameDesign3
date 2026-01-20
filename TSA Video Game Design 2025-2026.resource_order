@@ -71,6 +71,7 @@
     {"name":"sPixel","order":14,"path":"sprites/sPixel/sPixel.yy",},
     {"name":"sPlatformMovingLeftRight","order":7,"path":"sprites/sPlatformMovingLeftRight/sPlatformMovingLeftRight.yy",},
     {"name":"sPLatformPoint","order":8,"path":"sprites/sPLatformPoint/sPLatformPoint.yy",},
+    {"name":"sPlayerFalling","order":4,"path":"sprites/sPlayerFalling/sPlayerFalling.yy",},
     {"name":"sPlayerJump","order":2,"path":"sprites/sPlayerJump/sPlayerJump.yy",},
     {"name":"sPlayerLand","order":3,"path":"sprites/sPlayerLand/sPlayerLand.yy",},
     {"name":"sPlayerRun","order":1,"path":"sprites/sPlayerRun/sPlayerRun.yy",},

@@ -2,7 +2,7 @@ var halfw = w * 0.5
 
 //Draw The box
 draw_set_color(c_black);
-draw_set_alpha(0.5);
+draw_set_alpha(0.75);
 draw_roundrect_ext(x-halfw-border,y-h-(border*2),x+halfw+border,y,15,15,false);
 
 draw_sprite(sMarker,0,x,y);

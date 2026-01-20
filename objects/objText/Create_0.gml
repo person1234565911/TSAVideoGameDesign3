@@ -1,4 +1,4 @@
-spd = 0.25;
+spd = 0.50;
 letters = 0;
 text = "This is a test string!\nSecond Line!";
 length = string_length(text);

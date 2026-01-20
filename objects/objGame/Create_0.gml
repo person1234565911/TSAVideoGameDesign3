@@ -4,3 +4,4 @@ global.player_x = x;
 global.player_y = y;
 global.breakingBlockBroken = false;
 global.playerDead = false;
+waitTime = 60;

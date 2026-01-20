@@ -1,3 +1,5 @@
 // Restart
+
 TransitionStart(global.target,sqFadeOut,sqFadeIn);
-room_restart();
+
+alarm[0] = waitTime;
