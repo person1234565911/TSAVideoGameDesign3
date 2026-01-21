@@ -4,4 +4,5 @@ if (place_meeting(x,y,objPlayer)) {
 	
 	
 	TransitionStart(global.target,sqFadeOut,sqFadeIn);
+	alarm[0] = waitTime;
 }
