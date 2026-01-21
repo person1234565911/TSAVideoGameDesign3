@@ -84,7 +84,7 @@
     {"name":"sSign","order":17,"path":"sprites/sSign/sSign.yy",},
     {"name":"sTransitionANIMATION","order":4,"path":"sprites/sTransitionANIMATION/sTransitionANIMATION.yy",},
     {"name":"sWallOneway","order":3,"path":"sprites/sWallOneway/sWallOneway.yy",},
-    {"name":"sWater","order":2,"path":"sprites/sWater/sWater.yy",},
+    {"name":"sWater","order":20,"path":"sprites/sWater/sWater.yy",},
     {"name":"t2","order":1,"path":"sprites/t2/t2.yy",},
     {"name":"t3","order":2,"path":"sprites/t3/t3.yy",},
     {"name":"t4","order":3,"path":"sprites/t4/t4.yy",},

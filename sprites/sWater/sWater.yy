@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"sWater",
   "bboxMode":0,
-  "bbox_bottom":223,
+  "bbox_bottom":15,
   "bbox_left":0,
-  "bbox_right":191,
+  "bbox_right":15,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"5fd17aeb-c254-4c95-851a-2d81a0e7bcda","name":"5fd17aeb-c254-4c95-851a-2d81a0e7bcda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"146f5f54-493d-46ee-a3f7-dd00a87e49d1","name":"146f5f54-493d-46ee-a3f7-dd00a87e49d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":224,
+  "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"780ae736-fec0-4617-ad2b-ba9c087eac67","blendMode":0,"displayName":"default","isLocked":false,"name":"780ae736-fec0-4617-ad2b-ba9c087eac67","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"776d7e52-5750-4167-bde9-1dfb66d3871b","blendMode":0,"displayName":"default","isLocked":false,"name":"776d7e52-5750-4167-bde9-1dfb66d3871b","opacity":51.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sWater",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Tilesets Sprites",
-    "path":"folders/Sprites/Tilesets Sprites.yy",
+    "name":"Game Sprites",
+    "path":"folders/Sprites/Game Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5fd17aeb-c254-4c95-851a-2d81a0e7bcda","path":"sprites/sWater/sWater.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d5d25e2b-e449-4f7e-8ede-2cedb165453b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"146f5f54-493d-46ee-a3f7-dd00a87e49d1","path":"sprites/sWater/sWater.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"411e953c-b063-4560-b8cc-bbf93b2ea708","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":192,
+  "width":16,
 }
