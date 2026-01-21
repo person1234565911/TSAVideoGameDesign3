@@ -4,6 +4,7 @@ global.player_x = x;
 global.player_y = y;
 global.breakingBlockBroken = false;
 global.playerDead = false;
+global.gamePaused = false;
 waitTime = 60;
 follow = objCamera;
 xTo = xstart;

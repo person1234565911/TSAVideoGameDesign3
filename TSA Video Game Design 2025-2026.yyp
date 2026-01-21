@@ -76,6 +76,7 @@
     {"id":{"name":"tree9","path":"objects/tree9/tree9.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"id":{"name":"DrawSetText","path":"scripts/DrawSetText/DrawSetText.yy",},},
     {"id":{"name":"resetGlobals","path":"scripts/resetGlobals/resetGlobals.yy",},},
     {"id":{"name":"Transitions","path":"scripts/Transitions/Transitions.yy",},},
@@ -136,6 +137,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

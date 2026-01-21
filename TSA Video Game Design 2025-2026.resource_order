@@ -47,6 +47,7 @@
     {"name":"tree8","order":8,"path":"objects/tree8/tree8.yy",},
     {"name":"tree9","order":7,"path":"objects/tree9/tree9.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+    {"name":"Room3","order":2,"path":"rooms/Room3/Room3.yy",},
     {"name":"DrawSetText","order":2,"path":"scripts/DrawSetText/DrawSetText.yy",},
     {"name":"resetGlobals","order":1,"path":"scripts/resetGlobals/resetGlobals.yy",},
     {"name":"sqFadeIn","order":1,"path":"sequences/sqFadeIn/sqFadeIn.yy",},
