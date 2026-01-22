@@ -6,7 +6,7 @@ if (instance_exists(follow))
 	yTo = follow.y;
 }
 
-if (global.playerDead == true) {
+if (global.playerDead == true && !transitionStartCheck) {
 	objCamera.x = 320;
 	objCamera.y = 474;
 	transitionStartCheck = true;

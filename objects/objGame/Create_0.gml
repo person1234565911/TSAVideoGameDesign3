@@ -1,4 +1,4 @@
-window_set_fullscreen(true)
+window_set_fullscreen(true);
 layer_set_visible("StructureLayer", false);
 global.player_x = x;
 global.player_y = y;

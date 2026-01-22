@@ -82,7 +82,6 @@ if (key_space && _on_ground)
 if (place_meeting(x,y,objDeath))
 {
 	global.playerDead = true;
-
 }
 
 // Jump Pads

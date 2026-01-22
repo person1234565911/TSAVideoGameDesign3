@@ -1,2 +1,2 @@
-
+room_restart();
 resetGlobals();
