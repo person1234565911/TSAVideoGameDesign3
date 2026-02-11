@@ -66,7 +66,6 @@
     {"name":"sBg","order":6,"path":"sprites/sBg/sBg.yy",},
     {"name":"sBreaking","order":12,"path":"sprites/sBreaking/sBreaking.yy",},
     {"name":"sBreakingCol","order":11,"path":"sprites/sBreakingCol/sBreakingCol.yy",},
-    {"name":"sCave","order":2,"path":"sprites/sCave/sCave.yy",},
     {"name":"sCollision","order":1,"path":"sprites/sCollision/sCollision.yy",},
     {"name":"sDeath","order":2,"path":"sprites/sDeath/sDeath.yy",},
     {"name":"sFallDown","order":19,"path":"sprites/sFallDown/sFallDown.yy",},
@@ -83,6 +82,7 @@
     {"name":"sPlayerLand","order":3,"path":"sprites/sPlayerLand/sPlayerLand.yy",},
     {"name":"sPlayerRun","order":1,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
     {"name":"Sprite11","order":1,"path":"sprites/Sprite11/Sprite11.yy",},
+    {"name":"Sprite40","order":2,"path":"sprites/Sprite40/Sprite40.yy",},
     {"name":"sSign","order":17,"path":"sprites/sSign/sSign.yy",},
     {"name":"sTransitionANIMATION","order":4,"path":"sprites/sTransitionANIMATION/sTransitionANIMATION.yy",},
     {"name":"sWallOneway","order":3,"path":"sprites/sWallOneway/sWallOneway.yy",},
@@ -95,6 +95,5 @@
     {"name":"t7","order":6,"path":"sprites/t7/t7.yy",},
     {"name":"t8","order":7,"path":"sprites/t8/t8.yy",},
     {"name":"t9","order":8,"path":"sprites/t9/t9.yy",},
-    {"name":"tCave","order":1,"path":"tilesets/tCave/tCave.yy",},
   ],
 }
