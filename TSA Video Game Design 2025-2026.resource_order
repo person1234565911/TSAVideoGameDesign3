@@ -34,6 +34,7 @@
     {"name":"objMusic","order":23,"path":"objects/objMusic/objMusic.yy",},
     {"name":"objOneWay","order":3,"path":"objects/objOneWay/objOneWay.yy",},
     {"name":"objPlayer","order":1,"path":"objects/objPlayer/objPlayer.yy",},
+    {"name":"Objpush","order":25,"path":"objects/Objpush/Objpush.yy",},
     {"name":"objSign","order":22,"path":"objects/objSign/objSign.yy",},
     {"name":"objSolid","order":16,"path":"objects/objSolid/objSolid.yy",},
     {"name":"objText","order":18,"path":"objects/objText/objText.yy",},
