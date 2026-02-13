@@ -133,6 +133,7 @@
     {"id":{"name":"t8","path":"sprites/t8/t8.yy",},},
     {"id":{"name":"t9","path":"sprites/t9/t9.yy",},},
     {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},},
+    {"id":{"name":"tTIlesCave","path":"tilesets/tTIlesCave/tTIlesCave.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

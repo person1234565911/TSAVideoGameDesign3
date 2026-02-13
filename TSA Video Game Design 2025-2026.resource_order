@@ -95,5 +95,6 @@
     {"name":"t7","order":6,"path":"sprites/t7/t7.yy",},
     {"name":"t8","order":7,"path":"sprites/t8/t8.yy",},
     {"name":"t9","order":8,"path":"sprites/t9/t9.yy",},
+    {"name":"tTIlesCave","order":1,"path":"tilesets/tTIlesCave/tTIlesCave.yy",},
   ],
 }
