@@ -283,6 +283,7 @@
     {"name":"inst_19A1AA18","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1E08C8DA","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5DDA8F8","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5C4CF1D8","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -351,6 +352,7 @@
         {"$GMRInstance":"v4","%Name":"inst_6D148F68","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D148F68","objectId":{"name":"objBreaking","path":"objects/objBreaking/objBreaking.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":880.0,"y":80.0,},
         {"$GMRInstance":"v4","%Name":"inst_333CE694","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_333CE694","objectId":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":592.0,},
         {"$GMRInstance":"v4","%Name":"inst_C08F259","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C08F259","objectId":{"name":"objMusic","path":"objects/objMusic/objMusic.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":592.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5C4CF1D8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5C4CF1D8","objectId":{"name":"Objpush","path":"objects/Objpush/Objpush.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":592.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"CollidableTiles","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"CollidableTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":40,"SerialiseWidth":82,"TileCompressedData":[
           -369,-2147483648,3,1,2,3,-13,-2147483648,-4,0,-62,-2147483648,3,12,13,14,-12,-2147483648,5,1,2,2,3,0,

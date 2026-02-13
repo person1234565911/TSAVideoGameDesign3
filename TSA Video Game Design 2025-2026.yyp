@@ -39,7 +39,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"TSA Video Game Design 2025-2026",
   "resources":[
@@ -62,6 +62,7 @@
     {"id":{"name":"objMusic","path":"objects/objMusic/objMusic.yy",},},
     {"id":{"name":"objOneWay","path":"objects/objOneWay/objOneWay.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
+    {"id":{"name":"Objpush","path":"objects/Objpush/Objpush.yy",},},
     {"id":{"name":"objSign","path":"objects/objSign/objSign.yy",},},
     {"id":{"name":"objSolid","path":"objects/objSolid/objSolid.yy",},},
     {"id":{"name":"objText","path":"objects/objText/objText.yy",},},
