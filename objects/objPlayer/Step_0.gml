@@ -81,7 +81,12 @@ if (key_space && _on_ground)
 //Death
 if (place_meeting(x,y,objDeath))
 {
-	global.playerDead = true;
+	if (!transitionStartCheck)
+    {
+        
+        TransitionStart(global.target,sqFadeOut,sqFadeIn);
+        alarm[0] = waitTime
+    }
 }
 
 // Jump Pads

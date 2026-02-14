@@ -5,6 +5,7 @@ global.player_y = y;
 global.breakingBlockBroken = false;
 global.playerDead = false;
 global.gamePaused = false;
+global.target = room;
 waitTime = 60;
 follow = objCamera;
 xTo = xstart;

@@ -8,10 +8,11 @@ player_max_fall_speed = 8; // Capping the fall speed
 player_jump_pad_height = -9; // Setting jump pad height
 jump_pad_activated = false; // Trigger if the jump pad is activated
 breaking = false; // i have no clue honestly
-waitTime = 150; // temp
+waitTime = 50; // temp
 player_isDead = false; // temp
 falling = false; // checks if falling
 pad_used = false;
+transitionStartCheck = false;
 
 
 // Animation sprites
