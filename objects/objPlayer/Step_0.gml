@@ -1,7 +1,8 @@
 // Setting up key press variables
 key_left = keyboard_check(ord("A"))
 key_right = keyboard_check(ord("D"))
-key_space = keyboard_check(ord("W"));
+key_space = keyboard_check(ord("W"))
+key_flashlight = keyboard_check_pressed(ord("F"))
 
 move = (key_right - key_left) * player_speed_x;
 player_speed_y += player_grav;
@@ -79,13 +80,13 @@ if (key_space && _on_ground)
 }
 
 //Death
-if (place_meeting(x,y,objDeath))
+if (place_meeting(x,y,objDeath) or (place_meeting(x, y, objBandit)))
 {
 	if (!transitionStartCheck)
     {
         
         TransitionStart(global.target,sqFadeOut,sqFadeIn);
-        alarm[0] = waitTime
+        alarm_set(0, 10)
     }
 }
 
@@ -111,10 +112,6 @@ if (pad == noone)
 	}
 }
 
-
-
-
-
 // Falling animation
 if (!player_jump_check && player_speed_y > 0 && !_on_ground)
 {
@@ -125,4 +122,18 @@ if (!player_jump_check && player_speed_y > 0 && !_on_ground)
 		sprite_index = player_land;
 		falling = false;
 	}
+}
+
+// Flashlights
+if (place_meeting(x, y, objFlashlight) and flashlightPicked == false){
+    flashlightPicked = true
+    if flashlightFlashing == false and key_flashlight {
+        flashlightFlashing = true
+        instance_create_layer(x,y,"Instances", objFlashlightFlash)
+    }
+    else if flashlightFlashing == true and key_flashlight
+    {
+        flashlightFlashing = false
+        instance_destroy(objFlashlightFlash)
+    }
 }

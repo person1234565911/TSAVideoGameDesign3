@@ -13,6 +13,8 @@ player_isDead = false; // temp
 falling = false; // checks if falling
 pad_used = false;
 transitionStartCheck = false;
+flashlightPicked = false
+flashlightFlashing = false
 
 
 // Animation sprites
