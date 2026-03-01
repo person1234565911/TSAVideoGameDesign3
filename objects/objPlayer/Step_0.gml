@@ -71,8 +71,8 @@ if (place_meeting(x, y + player_speed_y, objSolid)) or
 
 
 // Actually applying collisions to objSolid
-move_and_collide(move, 0, objSolid);
-move_and_collide(0, player_speed_y, objSolid, 8, 0, 0, player_max_fall_speed);
+move_and_collide(move, 0, [objSolid,ObjKeyWall]);
+move_and_collide(0, player_speed_y, [objSolid,ObjKeyWall], 8, 0, 0, player_max_fall_speed);
 
 
 // Jumping

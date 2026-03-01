@@ -65,6 +65,7 @@
     {"id":{"name":"objGame","path":"objects/objGame/objGame.yy",},},
     {"id":{"name":"objIce","path":"objects/objIce/objIce.yy",},},
     {"id":{"name":"objJumpPad","path":"objects/objJumpPad/objJumpPad.yy",},},
+    {"id":{"name":"ObjKeyWall","path":"objects/ObjKeyWall/ObjKeyWall.yy",},},
     {"id":{"name":"objLedge","path":"objects/objLedge/objLedge.yy",},},
     {"id":{"name":"objLevelTransition","path":"objects/objLevelTransition/objLevelTransition.yy",},},
     {"id":{"name":"objMovingLR","path":"objects/objMovingLR/objMovingLR.yy",},},
@@ -134,6 +135,7 @@
     {"id":{"name":"sIce","path":"sprites/sIce/sIce.yy",},},
     {"id":{"name":"sJumpPad","path":"sprites/sJumpPad/sJumpPad.yy",},},
     {"id":{"name":"sJumpPadRisen","path":"sprites/sJumpPadRisen/sJumpPadRisen.yy",},},
+    {"id":{"name":"sKeyWall","path":"sprites/sKeyWall/sKeyWall.yy",},},
     {"id":{"name":"sLava","path":"sprites/sLava/sLava.yy",},},
     {"id":{"name":"sMarker","path":"sprites/sMarker/sMarker.yy",},},
     {"id":{"name":"sMover","path":"sprites/sMover/sMover.yy",},},
@@ -198,9 +200,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
