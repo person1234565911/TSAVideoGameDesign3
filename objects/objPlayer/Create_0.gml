@@ -1,4 +1,14 @@
 //Create Event
+
+// State Machine
+enum PlayerState {
+    IDLE,
+    RUN,
+    JUMP,
+    FALL,
+    FLASH,
+    DEAD
+}
 player_speed_x = 2; // Horizontal Speed
 player_speed_y = 0; // Vertical Speed
 player_grav = 0.35; // Gravity
@@ -13,8 +23,14 @@ player_isDead = false; // temp
 falling = false; // checks if falling
 pad_used = false;
 transitionStartCheck = false;
-flashlightPicked = false
-flashlightFlashing = false
+flashlightPicked = false;
+flashlightFlashing = false;
+coldMeter = 100;
+hsp = 0;
+vsp = 0;
+state = PlayerState.IDLE;
+max_speed = 3;
+acceleration = 0.02;
 
 
 // Animation sprites

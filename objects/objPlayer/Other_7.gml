@@ -1,4 +1,4 @@
-if sprite_index == sPlayerJump
+if sprite_index == player_jump
 {
 	image_index = image_number -1 ;
 }

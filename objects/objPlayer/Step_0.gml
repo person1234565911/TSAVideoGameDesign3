@@ -8,6 +8,16 @@ move = (key_right - key_left) * player_speed_x;
 player_speed_y += player_grav;
 
 
+
+// Room checks
+if room == Room3 {
+    coldMeter -= 0.2;
+    // Campfire Checks
+    if place_meeting(x, y, objCampfire)
+    {
+        coldMeter += 0.5;
+    }
+}
 // Left and right movements
 if (move != 0)
 {
@@ -45,7 +55,7 @@ if (_movingPlatform != noone)
 //Collision related variables
 one_way = instance_place(x, y + player_speed_y, objOneWay);
 one_way_on_top = one_way != noone && self.bbox_bottom <= one_way.bbox_top+1;
-breaking_block = instance_place(x, y + player_speed_y, objBreaking);
+breaking_block = instance_place(x, y + player_speed_y, objBreaking); 
 
 // Checking for collisions
 if (place_meeting(x, y + player_speed_y, objSolid)) or 
@@ -79,16 +89,7 @@ if (key_space && _on_ground)
 	audio_play_sound(sfx_jump, 10, false);
 }
 
-//Death
-if (place_meeting(x,y,objDeath) or (place_meeting(x, y, objBandit)))
-{
-	if (!transitionStartCheck)
-    {
-        
-        TransitionStart(global.target,sqFadeOut,sqFadeIn);
-        alarm_set(0, 10)
-    }
-}
+
 
 // Jump Pads
 var pad = instance_place(x, y + 1, objJumpPad);
@@ -131,9 +132,20 @@ if (place_meeting(x, y, objFlashlight) and flashlightPicked == false){
         flashlightFlashing = true
         instance_create_layer(x,y,"Instances", objFlashlightFlash)
     }
-    else if flashlightFlashing == true and key_flashlight
+    
+}
+if flashlightFlashing == true and key_flashlight {
+    flashlightFlashing = false
+    instance_destroy(objFlashlightFlash) 
+}
+
+//Death
+if (place_meeting(x,y,objDeath) or (place_meeting(x, y, objBandit)) or coldMeter <= 0)
+{
+	if (!transitionStartCheck)
     {
-        flashlightFlashing = false
-        instance_destroy(objFlashlightFlash)
+        
+        TransitionStart(global.target,sqFadeOut,sqFadeIn);
+        alarm_set(0, 10);
     }
 }
