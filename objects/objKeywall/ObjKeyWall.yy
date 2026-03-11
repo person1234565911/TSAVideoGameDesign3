@@ -9,7 +9,10 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objSolid",
+    "path":"objects/objSolid/objSolid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sKeyWall",
-    "path":"sprites/sKeyWall/sKeyWall.yy",
+    "name":"sButtonWall",
+    "path":"sprites/sButtonWall/sButtonWall.yy",
   },
   "spriteMaskId":null,
   "visible":true,

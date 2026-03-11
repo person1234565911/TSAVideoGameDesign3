@@ -2,12 +2,37 @@
 key_left = keyboard_check(ord("A"))
 key_right = keyboard_check(ord("D"))
 key_space = keyboard_check(ord("W"))
-key_flashlight = keyboard_check_pressed(ord("F"))
+key_flashlight = keyboard_check_pressed(ord("F"));
 
 move = (key_right - key_left) * player_speed_x;
 player_speed_y += player_grav;
 
 
+if (standing_on != noone)
+{
+    if (instance_exists(standing_on))
+    {
+        x += standing_on.x - standing_on.xprevious;
+        y += standing_on.y - standing_on.yprevious;
+    }
+    else
+    {
+        standing_on = noone;
+    }
+}
+
+if (standing_on_movingP != noone)
+{
+    if (instance_exists(standing_on_movingP))
+    {
+        x += standing_on_movingP.x - standing_on_movingP.xprevious;
+        y += standing_on_movingP.y - standing_on_movingP.yprevious;
+    }
+    else
+    {
+        standing_on_movingP = noone;
+    }
+}
 
 // Room checks
 if room == Room3 {
@@ -35,21 +60,50 @@ if (move == 0 and !player_jump_check)
 }
 
 // Moving platform collision
-var _movingPlatform = instance_place(x, y + player_speed_y, objMovingLR);
+var _movingPlatform = instance_place(x, y + player_speed_y + 1, objMovingLR);
 
-if (_movingPlatform != noone)
+if (_movingPlatform != noone && player_speed_y >= 0)
 {	
     if (bbox_bottom <= _movingPlatform.bbox_top + 1)
     {
         player_speed_y = 0;
-		x += _movingPlatform.moveX;
-		y += _movingPlatform.moveY;
+		y = _movingPlatform.bbox_top - (bbox_bottom - y);
+        standing_on_movingP = _movingPlatform;
     }
 	if ((bbox_bottom <= _movingPlatform.bbox_top + 1) && player_jump_check == true)
     {
         sprite_index = player_land;
     }
 	
+}
+else { 
+    if (!place_meeting(x, y + 1, objMovingLR))
+    {
+        standing_on_movingP = noone;
+    }
+}
+// Rotating platforms collision
+var _rotatingPlatform = instance_place(x, y + player_speed_y + 1, objRotatingPlatform);
+
+if (_rotatingPlatform != noone && player_speed_y >= 0)
+{
+    if (bbox_bottom <= _rotatingPlatform.bbox_top + 1)
+    {
+        player_speed_y = 0;
+        y = _rotatingPlatform.bbox_top - (bbox_bottom - y);
+        standing_on = _rotatingPlatform;
+    }
+    if ((bbox_bottom <= _rotatingPlatform.bbox_top + 1) && player_jump_check == true)
+    {
+        sprite_index = player_land;
+    }
+}
+else
+{
+    if (!place_meeting(x, y + 1, objRotatingPlatform))
+    {
+        standing_on = noone;
+    }
 }
 
 //Collision related variables
@@ -71,14 +125,19 @@ if (place_meeting(x, y + player_speed_y, objSolid)) or
 
 
 // Actually applying collisions to objSolid
-move_and_collide(move, 0, [objSolid,ObjKeyWall]);
-move_and_collide(0, player_speed_y, [objSolid,ObjKeyWall], 8, 0, 0, player_max_fall_speed);
+move_and_collide(move, 0, [objSolid]);
+move_and_collide(0, player_speed_y, [objSolid], 8, 0, 0, player_max_fall_speed);
 
-
+if (player_speed_y < 0)
+{
+    standing_on = noone;
+}
 // Jumping
 var _on_ground =
     place_meeting(x, y + 1, objSolid) ||
-    place_meeting(x, y + 1, objOneWay);
+    place_meeting(x, y + 1, objOneWay) ||
+    place_meeting(x, y + 1, objRotatingPlatform) ||
+    place_meeting(x, y + 1, objMovingLR);
 
 if (key_space && _on_ground)
 {
@@ -92,20 +151,20 @@ if (key_space && _on_ground)
 
 
 // Jump Pads
-var pad = instance_place(x, y + 1, objJumpPad);
+var _jumpPad = instance_place(x, y + 1, objJumpPad);
 
-if (pad != noone && !pad.pad_used)
+if (_jumpPad != noone && !_jumpPad.pad_used)
 {
 	player_speed_y = player_jump_pad_height;
 	image_index = 0;
 
-	pad.jump_pad_activated = true;
-	pad.pad_used = true;
+	_jumpPad.jump_pad_activated = true;
+	_jumpPad.pad_used = true;
 
 	audio_play_sound(sfx_jump_high, 11, false);
 }
 
-if (pad == noone)
+if (_jumpPad == noone)
 {
 	with (objJumpPad)
 	{
@@ -128,15 +187,15 @@ if (!player_jump_check && player_speed_y > 0 && !_on_ground)
 // Flashlights
 if (place_meeting(x, y, objFlashlight) and flashlightPicked == false){
     flashlightPicked = true
-    if flashlightFlashing == false and key_flashlight {
-        flashlightFlashing = true
-        instance_create_layer(x,y,"Instances", objFlashlightFlash)
-    }
     
 }
-if flashlightFlashing == true and key_flashlight {
-    flashlightFlashing = false
-    instance_destroy(objFlashlightFlash) 
+if flashlightPicked = true {
+   if flashlightFlashing == false and key_flashlight {
+       flashlightFlashing = true
+   }
+   else if flashlightFlashing == true and key_flashlight {
+       flashlightFlashing = false
+   }
 }
 
 //Death

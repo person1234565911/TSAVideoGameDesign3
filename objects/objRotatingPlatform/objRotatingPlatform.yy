@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objFlashlightFlash",
+  "%Name":"objRotatingPlatform",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objFlashlightFlash",
+  "name":"objRotatingPlatform",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,10 +30,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"sFlashlightFlash",
-    "path":"sprites/sFlashlightFlash/sFlashlightFlash.yy",
+    "name":"sRotatingPlatform",
+    "path":"sprites/sRotatingPlatform/sRotatingPlatform.yy",
   },
   "spriteMaskId":null,
   "visible":true,

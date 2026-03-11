@@ -48,3 +48,11 @@ if (place_meeting(x,y + enemySpeedY,objCollision))
     enemySpeedY = 0    
 }
 y = y + enemySpeedY
+
+if (place_meeting(x, y, objFlashlightFlash) && objFlashlightFlash.image_alpha == 100) {
+    instance_destroy();
+    enemyIsDead = true;
+    if (instance_exists(inst_5D85553E) && enemyIsDead) {
+        instance_destroy(inst_168049E6);
+    }
+}

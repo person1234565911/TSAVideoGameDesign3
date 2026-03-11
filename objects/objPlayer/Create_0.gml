@@ -31,6 +31,8 @@ vsp = 0;
 state = PlayerState.IDLE;
 max_speed = 3;
 acceleration = 0.02;
+standing_on = noone;
+standing_on_movingP = noone;
 
 
 // Animation sprites
