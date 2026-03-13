@@ -203,7 +203,7 @@ if (place_meeting(x,y,objDeath) or (place_meeting(x, y, objBandit)) or coldMeter
 {
 	if (!transitionStartCheck)
     {
-        
+        transitionStartCheck = true;
         TransitionStart(global.target,sqFadeOut,sqFadeIn);
         alarm_set(0, 10);
     }
