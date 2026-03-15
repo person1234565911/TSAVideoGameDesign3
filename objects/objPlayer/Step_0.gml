@@ -7,7 +7,6 @@ key_flashlight = keyboard_check_pressed(ord("F"));
 move = (key_right - key_left) * player_speed_x;
 player_speed_y += player_grav;
 
-
 if (standing_on != noone)
 {
     if (instance_exists(standing_on))
@@ -105,6 +104,8 @@ else
         standing_on = noone;
     }
 }
+
+// Ice physics
 
 //Collision related variables
 one_way = instance_place(x, y + player_speed_y, objOneWay);

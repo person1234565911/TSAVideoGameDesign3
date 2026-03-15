@@ -24,14 +24,20 @@ else {
            var _sw = sprite_width / 2;
            var _sh = sprite_height / 2;
            switch(object_index)
-           {
+           { 
+           case objSign:
+               draw_sprite_ext(sLight, 0, x + _sw - _cx, y + _sh - _cy, 0.35, 0.35, 0, c_white, 1);
+               break;
+           case objFlashlight:
+               draw_sprite_ext(sLight, 0, x + _sw - _cx, y + _sh - _cy, 0.25, 0.25, 0, c_white, 1);
+               break;
            case objBandit:
                draw_sprite_ext(sLight, 0, x + _sw - _cx, y + _sh - _cy, 0.5, 0.5, 0, c_white, 1);
                break;
            case objFlashlightFlash:
                if objFlashlightFlash.image_alpha == 100 {
                   draw_sprite_ext(sLight, 0, x - _cx, y - _sh - _cy, 1.5, 1.5, 0, c_white, 1);    
-               }
+               } 
                      
                break;
            }
