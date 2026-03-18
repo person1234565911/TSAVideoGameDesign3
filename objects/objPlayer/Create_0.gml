@@ -9,6 +9,7 @@ enum PlayerState {
     FLASH,
     DEAD
 }
+global.playerDead = false;
 player_speed_x = 2; // Horizontal Speed
 player_speed_y = 0; // Vertical Speed
 player_grav = 0.35; // Gravity
@@ -19,20 +20,21 @@ player_jump_pad_height = -9; // Setting jump pad height
 jump_pad_activated = false; // Trigger if the jump pad is activated
 breaking = false; // i have no clue honestly
 waitTime = 50; // temp
-player_isDead = false; // temp
 falling = false; // checks if falling
 pad_used = false;
 transitionStartCheck = false;
 flashlightPicked = false;
 flashlightFlashing = false;
-coldMeter = 10000000;
-player_speed_x = 0;
+coldMeter = 100;
 vsp = 0;
 state = PlayerState.IDLE;
-max_speed = 3;
+max_speed = 3.75;
 acceleration = 0.02;
 standing_on = noone;
 standing_on_movingP = noone;
+ice_friction = 0.98;
+normal_friction = 1;
+keyReleased = false;
 
 
 // Animation sprites

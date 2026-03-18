@@ -1,3 +1,4 @@
+if (global.playerDead) exit;
 // Setting up key press variables
 key_left = keyboard_check(ord("A"))
 key_right = keyboard_check(ord("D"))
@@ -6,6 +7,7 @@ key_flashlight = keyboard_check_pressed(ord("F"));
 
 move = (key_right - key_left) * player_speed_x;
 player_speed_y += player_grav;
+
 
 if (standing_on != noone)
 {
@@ -35,7 +37,7 @@ if (standing_on_movingP != noone)
 
 // Room checks
 if room == Room3 {
-    coldMeter -= 0.2;
+    coldMeter -= 0.083;
     // Campfire Checks
     if place_meeting(x, y, objCampfire)
     {
@@ -104,10 +106,41 @@ else
         standing_on = noone;
     }
 }
+// On ground
+var _on_ground =
+    place_meeting(x, y + 1, objSolid) ||
+    place_meeting(x, y + 1, objOneWay) ||
+    place_meeting(x, y + 1, objRotatingPlatform) ||
+    place_meeting(x, y + 1, objMovingLR);
+
+    
 
 // Ice physics
+var _iceCOl = instance_place(x, y + 1, objIce);
+var _friction = 0.05
 
-//Collision related variables
+if _iceCOl != noone {
+    if (key_left) {
+        player_speed_x /= ice_friction
+        if player_speed_x >= 3.4 player_speed_x = 3.4
+        keyReleased = false
+    }
+    else if (key_right) {
+        player_speed_x /= ice_friction
+        if player_speed_x >= 3.4 player_speed_x = 3.4
+        keyReleased = false
+    }
+    if (move == 0 && player_speed_x > 0) {
+        player_speed_x -= 0.01
+        x += player_speed_x
+    }
+} else if _iceCOl == noone  {
+    player_speed_x = 2
+    player_speed_x *= normal_friction
+}
+
+
+//Collision related variablesaaaa
 one_way = instance_place(x, y + player_speed_y, objOneWay);
 one_way_on_top = one_way != noone && self.bbox_bottom <= one_way.bbox_top+1;
 breaking_block = instance_place(x, y + player_speed_y, objBreaking); 
@@ -134,11 +167,6 @@ if (player_speed_y < 0)
     standing_on = noone;
 }
 // Jumping
-var _on_ground =
-    place_meeting(x, y + 1, objSolid) ||
-    place_meeting(x, y + 1, objOneWay) ||
-    place_meeting(x, y + 1, objRotatingPlatform) ||
-    place_meeting(x, y + 1, objMovingLR);
 
 if (key_space && _on_ground)
 {
@@ -200,12 +228,14 @@ if flashlightPicked = true {
 }
 
 //Death
-if (place_meeting(x,y,objDeath) or (place_meeting(x, y, objBandit)) or coldMeter <= 0)
+if (place_meeting(x,y,objDeath) || place_meeting(x,y,objBandit) || coldMeter <= 0)
 {
-	if (!transitionStartCheck)
+	if (!transitionStartCheck && !global.playerDead)
     {
         transitionStartCheck = true;
-        TransitionStart(global.target,sqFadeOut,sqFadeIn);
-        alarm_set(0, 10);
+        global.playerDead = true;
+        TransitionStart(global.target, sqFadeOut, sqFadeIn);
+        alarm_set(0, 16);
     }
 }
+
