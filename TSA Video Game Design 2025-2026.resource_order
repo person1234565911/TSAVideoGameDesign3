@@ -133,6 +133,7 @@
     {"name":"sCampfire","order":26,"path":"sprites/sCampfire/sCampfire.yy",},
     {"name":"sCollision","order":1,"path":"sprites/sCollision/sCollision.yy",},
     {"name":"sDeath","order":2,"path":"sprites/sDeath/sDeath.yy",},
+    {"name":"sDeathIndicator","order":14,"path":"sprites/sDeathIndicator/sDeathIndicator.yy",},
     {"name":"sFallDown","order":17,"path":"sprites/sFallDown/sFallDown.yy",},
     {"name":"sFlashlightFlash","order":24,"path":"sprites/sFlashlightFlash/sFlashlightFlash.yy",},
     {"name":"sFlashlightPickup","order":23,"path":"sprites/sFlashlightPickup/sFlashlightPickup.yy",},

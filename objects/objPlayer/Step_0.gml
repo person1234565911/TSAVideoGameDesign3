@@ -131,7 +131,7 @@ if _iceCOl != noone {
         keyReleased = false
     }
     if (move == 0 && player_speed_x > 0) {
-        player_speed_x -= 0.01
+        player_speed_x -= move * 0.1
         x += player_speed_x
     }
 } else if _iceCOl == noone  {

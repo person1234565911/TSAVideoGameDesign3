@@ -38,9 +38,9 @@ else if (state == "Idle") {
 }
 
 
-if (place_meeting(x,y + enemySpeedY,objCollision))
+if (place_meeting(x,y + enemySpeedY,[objCollision, objIce]))
 {
-    while (!place_meeting(x,y+sign(enemySpeedY), objCollision))
+    while (!place_meeting(x,y+sign(enemySpeedY), [objCollision, objIce]))
     {
         y = y + sign(enemySpeedY)
     }

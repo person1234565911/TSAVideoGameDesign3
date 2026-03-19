@@ -41,8 +41,12 @@ else {
                      
                break;
             case objButton8:
-               draw_sprite_ext(sLight, 0, x + _sw - _cx, y + _sh - _cy, 0.09, 0.09, 0, c_white, 1);
+               draw_sprite_ext(sLight, 0, (x + _sw - _cx) - 8, y + _sh - _cy, 0.15, 0.15, 0, c_white, 1);
                break;
+            case objPlayer:
+                if room == Room4 {
+                    draw_sprite_ext(sLight, 0, x + _sw - _cx, y + _sh - _cy,1, 1, 0, c_white, 1);
+                }
            }
        }
    gpu_set_blendmode(bm_normal);
