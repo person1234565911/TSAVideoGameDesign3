@@ -43,6 +43,9 @@ if room == Room3 {
     {
         coldMeter += 0.5;
     }
+    if coldMeter >= 100 {
+        coldMeter = 100;
+    }
 }
 // Left and right movements
 if (move != 0)
