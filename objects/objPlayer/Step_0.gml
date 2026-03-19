@@ -132,7 +132,16 @@ if _iceCOl != noone {
     }
     if (move == 0 && player_speed_x > 0) {
         player_speed_x -= move * 0.1
-        x += player_speed_x
+        if image_xscale=1
+        {
+            player_speed_x *= ice_friction
+            x += player_speed_x  
+        }
+         if image_xscale=-1
+        {
+            player_speed_x *= ice_friction
+            x -= player_speed_x  
+        }
     }
 } else if _iceCOl == noone  {
     player_speed_x = 2
