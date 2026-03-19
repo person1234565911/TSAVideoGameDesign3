@@ -9,3 +9,9 @@ if room == Room2 {
 if room == Room3 {
     audio_stop_sound(sfxBGMlvl3);
 }
+if room == Room4 {
+    audio_stop_sound(Sound11);
+}
+if room == Room5 {
+    audio_stop_sound(Sound12);
+}

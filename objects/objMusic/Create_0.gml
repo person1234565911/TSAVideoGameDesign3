@@ -7,4 +7,10 @@ if room == Room2 {
 if room == Room3 {
     audio_play_sound(sfxBGMlvl3, 0, true);
 }
+if room == Room4 {
+    audio_play_sound(Sound11, 0, true);
+}
+if room == Room5 {
+    audio_play_sound(Sound12, 0, true);
+}
 waitTime = 30;

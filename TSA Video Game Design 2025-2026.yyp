@@ -118,6 +118,8 @@
     {"id":{"name":"sfx_jump","path":"sounds/sfx_jump/sfx_jump.yy",},},
     {"id":{"name":"sfx_select","path":"sounds/sfx_select/sfx_select.yy",},},
     {"id":{"name":"sfxBGMlvl3","path":"sounds/sfxBGMlvl3/sfxBGMlvl3.yy",},},
+    {"id":{"name":"Sound11","path":"sounds/Sound11/Sound11.yy",},},
+    {"id":{"name":"Sound12","path":"sounds/Sound12/Sound12.yy",},},
     {"id":{"name":"Sound7","path":"sounds/Sound7/Sound7.yy",},},
     {"id":{"name":"Sound8","path":"sounds/Sound8/Sound8.yy",},},
     {"id":{"name":"Sound9","path":"sounds/Sound9/Sound9.yy",},},

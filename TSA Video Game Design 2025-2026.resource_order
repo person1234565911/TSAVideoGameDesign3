@@ -84,6 +84,8 @@
     {"name":"sfx_jump","order":1,"path":"sounds/sfx_jump/sfx_jump.yy",},
     {"name":"sfx_select","order":3,"path":"sounds/sfx_select/sfx_select.yy",},
     {"name":"sfxBGMlvl3","order":9,"path":"sounds/sfxBGMlvl3/sfxBGMlvl3.yy",},
+    {"name":"Sound11","order":10,"path":"sounds/Sound11/Sound11.yy",},
+    {"name":"Sound12","order":11,"path":"sounds/Sound12/Sound12.yy",},
     {"name":"Sound7","order":6,"path":"sounds/Sound7/Sound7.yy",},
     {"name":"Sound8","order":7,"path":"sounds/Sound8/Sound8.yy",},
     {"name":"Sound9","order":8,"path":"sounds/Sound9/Sound9.yy",},
